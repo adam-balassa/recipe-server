@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Recipe Server
+  datasource:
+    url: jdbc:postgresql://ec2-52-203-165-126.compute-1.amazonaws.com:5432/d10t11uakcvqtr
+    username: zvcpagxgsbgovx
+    password: e059024863472438f36ea3d1605fe389c0fc1ded5fd401add4b5844a09162402
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+
+info:
+  version: @version@

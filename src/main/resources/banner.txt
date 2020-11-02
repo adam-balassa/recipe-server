@@ -10,4 +10,4 @@ ${Ansi.RED}
                                 \/_/                                \/_/     \/_/
 
 ${Ansi.GREEN}${spring.application.name} ${Ansi.YELLOW}${info.version}
-${Ansi.GREEN}Spring Boot ${Ansi.YELLOW}${spring-boot.version}
+${Ansi.GREEN}Spring Boot ${Ansi.YELLOW}${spring-boot.version}${Ansi.DEFAULT}

@@ -14,6 +14,14 @@ class ErrorHandler {
                 HttpStatus.BAD_REQUEST
         )
     }
+
+    @ExceptionHandler(UnsuccessfulRequestException::class)
+    fun unprocessableEntity(): ResponseEntity<ErrorResponse> {
+        return ResponseEntity(
+                ErrorResponse("Unsuccessful request", "Request failed to Street Kitchen"),
+                HttpStatus.UNPROCESSABLE_ENTITY
+        )
+    }
 }
 
 data class ErrorResponse(

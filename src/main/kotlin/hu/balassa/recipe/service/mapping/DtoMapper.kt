@@ -3,6 +3,7 @@ package hu.balassa.recipe.service.mapping
 import hu.balassa.recipe.dto.IngredientDto
 import hu.balassa.recipe.dto.IngredientGroupDto
 import hu.balassa.recipe.dto.RecipeDto
+import hu.balassa.recipe.dto.RecipeHeader
 import hu.balassa.recipe.model.Ingredient
 import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
@@ -11,6 +12,14 @@ import org.mapstruct.Mapper
 @Mapper
 class DtoMapper {
     companion object {
+        fun recipeToHeaderDto(recipe: Recipe) = RecipeHeader().apply {
+            id = recipe.id
+            name = recipe.name
+            imageUrl = recipe.imageUrl
+            quantity = recipe.quantity
+            quantity2 = recipe.quantity2
+        }
+
         fun recipeToDto(recipe: Recipe): RecipeDto {
             fun ingredientToDto(ingredient: Ingredient) = IngredientDto().apply {
                 quantity = ingredient.quantity
@@ -24,6 +33,7 @@ class DtoMapper {
             }
 
             return RecipeDto().apply {
+                id = recipe.id
                 name = recipe.name
                 imageUrl = recipe.imageUrl
                 quantity = recipe.quantity
@@ -46,6 +56,7 @@ class DtoMapper {
             }
 
             return Recipe().apply {
+                id = recipe.id
                 name = recipe.name
                 imageUrl = recipe.imageUrl
                 quantity = recipe.quantity

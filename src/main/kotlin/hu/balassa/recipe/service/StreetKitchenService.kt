@@ -17,7 +17,9 @@ class StreetKitchenService {
         val document = getHTMLContent(url)
         val ingredientGroups = getIngredientGroups(document)
         val recipeName = document.select("h1").first().text()
-        val imageUrl = document.select(".article-featured-image-bg img").attr("src")
+        val imageUrl = document.select(".article-featured-image-bg noscript img").attr("src").ifEmpty {
+                    document.select(".wp-block-image noscript img").attr("src")
+                }
         val instructions = getInstructions(document)
         val quantity = document.select(".quantity .quantity-number").first().text().toInt()
         val quantity2 = document.select(".quantity .quantity2-number").first()?.text()?.toIntOrNull()

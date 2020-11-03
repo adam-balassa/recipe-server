@@ -3,6 +3,7 @@ package hu.balassa.recipe.model
 import javax.persistence.*
 import javax.persistence.CascadeType.ALL
 import javax.persistence.FetchType.EAGER
+import javax.persistence.FetchType.LAZY
 
 @Entity
 @Table(name = "recipes")
@@ -20,9 +21,9 @@ class Recipe {
     var quantity: Int = 0
     var quantity2: Int? = null
 
-    @OneToMany(cascade = [ALL], fetch = EAGER)
+    @OneToMany(cascade = [ALL], fetch = LAZY)
     @JoinColumn(name = "recipe_id")
-    lateinit var ingredientGroups: Set<IngredientGroup>
+    var ingredientGroups: Set<IngredientGroup> = emptySet()
 
     @ElementCollection(fetch = EAGER)
     @CollectionTable(name = "instructions", joinColumns = [JoinColumn(name = "recipe_id")])

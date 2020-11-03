@@ -12,10 +12,14 @@ class RecipeService (
 ) {
     fun getAllRecipes(): List<Recipe> = repository.findAll()
 
-    fun addRecipe(recipe: Recipe): Recipe = repository.save(recipe)
+    fun saveRecipe(recipe: Recipe): Recipe = repository.save(recipe)
 
     fun addStreetKitchenRecipe(info: NewStreetKitchenRecipe): Recipe {
         val recipe = streetKitchenService.getRecipe(info.url)
         return repository.save(recipe)
     }
+
+    fun deleteRecipe(id: Long) = repository.deleteById(id)
+
+    fun getRecipe(id: Long): Recipe = repository.findWithDetails(id)
 }

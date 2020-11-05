@@ -9,7 +9,6 @@ import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
 import org.mapstruct.Mapper
 
-@Mapper
 class DtoMapper {
     companion object {
         fun recipeToHeaderDto(recipe: Recipe) = RecipeHeader().apply {

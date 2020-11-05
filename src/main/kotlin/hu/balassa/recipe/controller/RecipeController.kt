@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/recipe")
+@CrossOrigin(origins=["*"])
 class RecipeController (
         private val service: RecipeService
 ) {

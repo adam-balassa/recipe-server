@@ -38,11 +38,10 @@ class RecipeService (
         val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
 
         val emptyPredicate = cb.isTrue(cb.literal(false))
-        val filterIngredients = keywords.fold(emptyPredicate) { predicate, keyword ->
-            cb.or(predicate, cb.like(ingredients.get("name"), "%$keyword%"))
+        val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
+            cb.or(predicate, cb.like(ingredients.get("name"), "%$keyword%"), cb.like(root.get("name"), "%${keyword}%"))
         }
-        val filterName = cb.like(root.get("name"), "%${keywords[0]}%")
-        where(cb.or(filterIngredients, filterName))
+        where(filter)
     }
 
     private inline fun <reified ResultT> criteriaQuery(

@@ -7,7 +7,6 @@ import hu.balassa.recipe.dto.RecipeHeader
 import hu.balassa.recipe.model.Ingredient
 import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
-import org.mapstruct.Mapper
 
 class DtoMapper {
     companion object {

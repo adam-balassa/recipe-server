@@ -18,6 +18,7 @@ class DtoMapper {
             imageUrl = recipe.imageUrl
             quantity = recipe.quantity
             quantity2 = recipe.quantity2
+            category = recipe.category
         }
 
         fun recipeToDto(recipe: Recipe): RecipeDto {
@@ -40,6 +41,7 @@ class DtoMapper {
                 quantity2 = recipe.quantity2
                 ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToDto(ingredientGroup) }
                 instructions = recipe.instructions
+                category = recipe.category
             }
         }
 
@@ -63,6 +65,7 @@ class DtoMapper {
                 quantity2 = recipe.quantity2
                 ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToModel(ingredientGroup) }.toSet()
                 instructions = recipe.instructions
+                category = recipe.category
             }
         }
     }

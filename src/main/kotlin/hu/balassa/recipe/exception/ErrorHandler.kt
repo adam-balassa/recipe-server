@@ -22,6 +22,14 @@ class ErrorHandler {
                 HttpStatus.UNPROCESSABLE_ENTITY
         )
     }
+
+    @ExceptionHandler(NotFoundException::class)
+    fun notFound(exception: NotFoundException): ResponseEntity<ErrorResponse> {
+        return ResponseEntity(
+                ErrorResponse("Not found", "Recipe ${exception.id} not found"),
+                HttpStatus.NOT_FOUND
+        )
+    }
 }
 
 data class ErrorResponse(

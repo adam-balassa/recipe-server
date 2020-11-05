@@ -39,7 +39,7 @@ class StreetKitchenService {
     }
 
     private fun getIngredientGroups(document: Document): List<IngredientGroup> {
-        val groupElements = document.select(".ingredient-groups .ingredient-group")
+        val groupElements = document.select(".article-content .ingredients-left .ingredients-content .ingredient-groups .ingredient-group")
         val ingredientGroups = mutableListOf<IngredientGroup>()
         for (group in groupElements) {
             val groupName = group.select("h3").text()

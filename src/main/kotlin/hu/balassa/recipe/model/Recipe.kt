@@ -1,5 +1,6 @@
 package hu.balassa.recipe.model
 
+import hu.balassa.recipe.model.Category.MAIN
 import javax.persistence.*
 import javax.persistence.CascadeType.ALL
 import javax.persistence.FetchType.EAGER
@@ -29,4 +30,12 @@ class Recipe {
     @CollectionTable(name = "instructions", joinColumns = [JoinColumn(name = "recipe_id")])
     @Column(length = 800)
     lateinit var instructions: List<String>
+
+    @Enumerated
+    @Column(nullable=false)
+    var category: Category = MAIN
+}
+
+enum class Category {
+    MAIN, BREAKFAST, DESSERT, OTHER
 }

@@ -13,7 +13,7 @@ import javax.persistence.PersistenceContext
 import javax.persistence.criteria.*
 
 @Service
-class RecipeService (
+class RecipeService(
         private val repository: RecipeRepository,
         private val streetKitchenService: StreetKitchenService
 ) {
@@ -39,7 +39,10 @@ class RecipeService (
 
         val emptyPredicate = cb.isTrue(cb.literal(false))
         val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
-            cb.or(predicate, cb.like(ingredients.get("name"), "%$keyword%"), cb.like(root.get("name"), "%${keyword}%"))
+            cb.and(predicate, cb.or(
+                    cb.like(ingredients.get("name"), "%$keyword%"),
+                    cb.like(root.get("name"), "%${keyword}%")
+            ))
         }
         where(filter)
     }

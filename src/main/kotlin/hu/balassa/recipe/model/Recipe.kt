@@ -28,7 +28,7 @@ class Recipe {
 
     @ElementCollection(fetch = EAGER)
     @CollectionTable(name = "instructions", joinColumns = [JoinColumn(name = "recipe_id")])
-    @Column(length = 800)
+    @Column(length = 1000)
     lateinit var instructions: List<String>
 
     @Enumerated

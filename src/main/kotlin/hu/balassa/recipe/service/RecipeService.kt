@@ -37,7 +37,7 @@ class RecipeService(
         val ingredientGroups = root.join<Recipe, IngredientGroup>("ingredientGroups")
         val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
 
-        val emptyPredicate = cb.isTrue(cb.literal(false))
+        val emptyPredicate = cb.isTrue(cb.literal(true))
         val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
             cb.and(predicate, cb.or(
                     cb.like(ingredients.get("name"), "%$keyword%"),

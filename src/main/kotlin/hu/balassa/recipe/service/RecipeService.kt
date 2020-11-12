@@ -85,8 +85,10 @@ class RecipeService(
         val ingredients = ingredientGroups.flatMap { it.ingredients }
         val ingredientNames = ingredients.flatMap { ingredient ->
             ingredient.name.split(" ").let {
-                ingredient.quantity2 ?: return@let it.subList(1, it.size - 1)
-                it
+                if (ingredient.quantity == null || it.size == 1)
+                    it
+                else
+                    it.subList(1, it.size - 1)
             }
         }
         return findRecipesByKeywords(ingredientNames)

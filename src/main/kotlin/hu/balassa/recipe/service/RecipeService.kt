@@ -7,6 +7,7 @@ import hu.balassa.recipe.model.Ingredient
 import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
 import hu.balassa.recipe.repository.RecipeRepository
+import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 import javax.persistence.EntityManager
 import javax.persistence.PersistenceContext
@@ -33,7 +34,8 @@ class RecipeService(
 
     fun getRecipe(id: Long): Recipe = repository.findWithDetails(id) ?: throw NotFoundException(id)
 
-    fun filterRecipes(keywords: List<String>): List<Recipe> = criteriaQuery(em) { root, cb ->
+    fun filterRecipes(kw: List<String>): List<Recipe> = criteriaQuery(em) { root, cb ->
+        val keywords = kw.map { it.decapitalize() }
         val ingredientGroups = root.join<Recipe, IngredientGroup>("ingredientGroups")
         val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
 
@@ -45,6 +47,49 @@ class RecipeService(
             ))
         }
         where(filter)
+    }
+
+    fun findRecipesByKeywords(kw: List<String>): List<Recipe> = criteriaQuery(em) { root, cb ->
+        val keywords = kw.map { it.decapitalize() }
+        val ingredientGroups = root.join<Recipe, IngredientGroup>("ingredientGroups")
+        val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
+
+        val emptyPredicate = cb.isTrue(cb.literal(false))
+        val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
+            cb.or(predicate, cb.or(
+                    cb.like(ingredients.get("name"), "%$keyword%"),
+                    cb.like(root.get("name"), "%${keyword}%")
+            ))
+        }
+        where(filter)
+    }
+
+    fun findSimilarRecipes(id: Long): List<Recipe> {
+        val recipe = repository.findByIdOrNull(id)
+                ?: throw NotFoundException(id)
+        val keywords = recipe.name.split(" ").flatMap { it.split("-") }
+
+        val recipesByName = findRecipesByKeywords(keywords).filter {
+            it.id != recipe.id
+        }
+        if (recipesByName.size >= 3)
+            return recipesByName
+
+        return findSimilarRecipesByIngredients(id)
+
+    }
+
+    private fun findSimilarRecipesByIngredients(id: Long): List<Recipe> {
+        val ingredientGroups = repository.findWithDetails(id)?.ingredientGroups
+                ?: throw NotFoundException(id)
+        val ingredients = ingredientGroups.flatMap { it.ingredients }
+        val ingredientNames = ingredients.flatMap { ingredient ->
+            ingredient.name.split(" ").let {
+                ingredient.quantity2 ?: return@let it.subList(1, it.size - 1)
+                it
+            }
+        }
+        return findRecipesByKeywords(ingredientNames)
     }
 
     private inline fun <reified ResultT> criteriaQuery(

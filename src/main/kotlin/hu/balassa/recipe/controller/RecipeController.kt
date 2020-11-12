@@ -24,6 +24,12 @@ class RecipeController (
         DtoMapper.recipeToDto(it)
     }
 
+    @GetMapping("/{id}/similar")
+    fun getSimilarRecipes(@PathVariable("id") id: Long): List<RecipeHeader> =
+            service.findSimilarRecipes(id).map {
+                DtoMapper.recipeToHeaderDto(it)
+            }
+
     @GetMapping("/filter")
     fun searchRecipe(@RequestParam keywords: List<String>) = service.filterRecipes(keywords).map {
         DtoMapper.recipeToHeaderDto(it)

@@ -13,7 +13,7 @@ class Recipe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long? = null
 
-    @Column(nullable = false, length = 60, unique = true)
+    @Column(nullable = false, length = 80, unique = true)
     lateinit var name: String
 
     @Column(length = 150)

@@ -16,7 +16,7 @@ class Recipe {
     @Column(nullable = false, length = 80, unique = true)
     lateinit var name: String
 
-    @Column(length = 150)
+    @Column(length = 170)
     var imageUrl: String? = null
 
     var quantity: Int = 0

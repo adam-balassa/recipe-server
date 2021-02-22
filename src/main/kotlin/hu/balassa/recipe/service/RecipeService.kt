@@ -16,6 +16,7 @@ import javax.persistence.criteria.*
 @Service
 class RecipeService(
         private val repository: RecipeRepository,
+        private val imageUploadClient: ImageUploadClient,
         private val streetKitchenService: StreetKitchenService
 ) {
     @PersistenceContext
@@ -27,6 +28,9 @@ class RecipeService(
 
     fun addStreetKitchenRecipe(info: NewStreetKitchenRecipe): Recipe {
         val recipe = streetKitchenService.getRecipe(info.url)
+        recipe.imageUrl = recipe.imageUrl?.let {
+            imageUploadClient.uploadImageFromImageURL(it)
+        }
         return repository.save(recipe)
     }
 

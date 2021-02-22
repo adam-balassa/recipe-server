@@ -17,3 +17,7 @@ spring:
 
 info:
   version: @version@
+
+aws:
+  secretKey: 0aykKFZ7h+u6pC0s8+IUocZdD1bggot8Kv9RBcrn
+  accessKey: AKIAWPNGN6GGA5OBZ4QE

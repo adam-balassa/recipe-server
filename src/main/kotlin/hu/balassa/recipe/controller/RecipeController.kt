@@ -3,6 +3,7 @@ package hu.balassa.recipe.controller
 import hu.balassa.recipe.dto.NewStreetKitchenRecipe
 import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.dto.RecipeHeader
+import hu.balassa.recipe.service.AWSImageUploadClient
 import hu.balassa.recipe.service.RecipeService
 import hu.balassa.recipe.service.mapping.DtoMapper
 import org.springframework.http.HttpStatus
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.*
 class RecipeController (
         private val service: RecipeService
 ) {
+
     @GetMapping
     fun listRecipes(): List<RecipeHeader> = service.getAllRecipes().map {
         DtoMapper.recipeToHeaderDto(it)

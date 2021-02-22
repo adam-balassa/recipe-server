@@ -1,18 +1,10 @@
 package hu.balassa.recipe.service
 
-import com.amazonaws.auth.AWSCredentials
-import com.amazonaws.auth.AWSStaticCredentialsProvider
-import com.amazonaws.auth.BasicAWSCredentials
-import com.amazonaws.regions.Regions
 import com.amazonaws.services.s3.AmazonS3
-import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import com.amazonaws.services.s3.model.CannedAccessControlList
 import com.amazonaws.services.s3.model.PutObjectRequest
-import com.amazonaws.services.s3.model.SetObjectAclRequest
-import org.springframework.beans.factory.annotation.Value
-import org.springframework.context.annotation.Primary
+import hu.balassa.recipe.util.Util
 import org.springframework.stereotype.Service
-import util.Util
 import java.io.File
 import java.io.InputStream
 import java.net.URL
@@ -37,12 +29,9 @@ interface ImageUploadClient {
 }
 
 @Service
-class AWSImageUploadClient: ImageUploadClient {
-    @Value("\${aws.secretKey}")
-    lateinit var awsSecretKey: String
-
-    @Value("\${aws.accessKey}")
-    lateinit var awsAccessKey: String
+class AWSImageUploadClient(
+    private val awsS3Client: AmazonS3
+): ImageUploadClient {
 
     companion object {
         private const val bucket = "recipe-app-objects"
@@ -52,22 +41,18 @@ class AWSImageUploadClient: ImageUploadClient {
     override fun uploadImageFromFile(image: File): String =
             uploadImageToS3(bucket, directory, image.name, image)
 
+    override fun uploadImageFromImageURL(imageUrl: String): String =
+        try {
+            super.uploadImageFromImageURL(imageUrl)
+        } catch (err: Exception) {
+            ""
+        }
+
     private fun uploadImageToS3(bucket: String, directory: String, imageName: String, file: File): String {
-        val aws = getAWSClient()
         val request = PutObjectRequest(bucket, "$directory/$imageName", file)
         request.cannedAcl = CannedAccessControlList.PublicRead
-        aws.putObject(request)
-        val url = aws.getUrl("$bucket/$directory", imageName)
+        awsS3Client.putObject(request)
+        val url = awsS3Client.getUrl("$bucket/$directory", imageName)
         return url.toExternalForm()
-    }
-
-    private fun getAWSClient(): AmazonS3 {
-        val credentials: AWSCredentials = BasicAWSCredentials(awsAccessKey, awsSecretKey)
-
-        return AmazonS3ClientBuilder
-                .standard()
-                .withCredentials(AWSStaticCredentialsProvider(credentials))
-                .withRegion(Regions.EU_CENTRAL_1)
-                .build()
     }
 }

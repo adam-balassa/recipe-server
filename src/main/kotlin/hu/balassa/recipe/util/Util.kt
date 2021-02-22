@@ -1,4 +1,4 @@
-package util
+package hu.balassa.recipe.util
 
 import java.util.*
 

@@ -24,7 +24,12 @@ class RecipeService(
 
     fun getAllRecipes(): List<Recipe> = repository.findAll()
 
-    fun saveRecipe(recipe: Recipe): Recipe = repository.save(recipe)
+    fun saveRecipe(recipe: Recipe): Recipe {
+        if (recipe.imageUrl?.contains("amazonaws.com") != true) {
+            recipe.imageUrl = imageUploadClient.uploadImageFromImageURL(recipe.imageUrl!!)
+        }
+        return repository.save(recipe)
+    }
 
     fun addStreetKitchenRecipe(info: NewStreetKitchenRecipe): Recipe {
         val recipe = streetKitchenService.getRecipe(info.url)

@@ -9,10 +9,16 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.context.annotation.Profile
 import org.springframework.context.annotation.Scope
+import com.amazonaws.auth.InstanceProfileCredentialsProvider
+
+
+
 
 @Configuration
-class AwsConfig {
+@Profile("develop")
+class AwsStaticConfig {
     @Value("\${aws.secret.key}")
     lateinit var awsSecretKey: String
 
@@ -27,6 +33,22 @@ class AwsConfig {
         return AmazonS3ClientBuilder
             .standard()
             .withCredentials(AWSStaticCredentialsProvider(credentials))
+            .withRegion(Regions.EU_CENTRAL_1)
+            .build()
+    }
+}
+
+@Configuration
+@Profile("production")
+class AwsInstanceRoleConfig {
+
+    @Bean
+    fun awsS3Client(): AmazonS3 {
+        val provider = InstanceProfileCredentialsProvider(true)
+
+        return AmazonS3ClientBuilder
+            .standard()
+            .withCredentials(provider)
             .withRegion(Regions.EU_CENTRAL_1)
             .build()
     }

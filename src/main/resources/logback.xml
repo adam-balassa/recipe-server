@@ -4,6 +4,24 @@
             <pattern>%d{yyyy-MM-dd HH:mm:ss} %highlight(%-5level) [%thread] %class{36}: %msg%n%rEx</pattern>
         </encoder>
     </appender>
+    <appender name="cloud-watch" class="io.github.dibog.AwsLogAppender">
+        <awsConfig>
+            <credentials>
+                <accessKeyId>${aws.accessKey}</accessKeyId>
+                <secretAccessKey>${aws.secret.key}</secretAccessKey>
+            </credentials>
+            <region>eu-central-1</region>
+        </awsConfig>
+
+        <createLogGroup>false</createLogGroup>
+        <queueLength>100</queueLength>
+        <groupName>recipe-app-logs</groupName>
+        <streamName>recipe-spring-logs</streamName>
+        <dateFormat>yyyy-MM-dd HH:mm:ss</dateFormat>
+        <layout>
+            <pattern>%highlight(%-5level) [%thread] %class{36}: %msg%n%rEx</pattern>
+        </layout>
+    </appender>
 
     <logger name="org" level="WARN"/>
     <logger name="hu" level="WARN"/>
@@ -16,6 +34,7 @@
     <logger name="hu.balassa.recipe" level="TRACE"/>
 
     <root level="info">
+        <appender-ref ref="cloud-watch" />
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>

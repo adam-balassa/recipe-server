@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo docker stop $(sudo docker ps -a -q)
+a=$(sudo docker ps -q)
+if [ "$a" ]; then sudo docker kill "$a"; fi

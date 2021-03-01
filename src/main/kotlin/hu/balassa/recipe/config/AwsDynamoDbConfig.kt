@@ -80,9 +80,6 @@ class DynamoDbStaticConfig: DynamoDbConfig() {
 @Configuration
 @Profile("production")
 class DynamoDbRoleConfig: DynamoDbConfig() {
-    @Value("\${amazon.dynamodb.endpoint}")
-    private lateinit var dbEndpoint: String
-
     @Bean
     override fun amazonDynamoDB(): DynamoDbEnhancedClient {
         return super.amazonDynamoDB()
@@ -91,6 +88,5 @@ class DynamoDbRoleConfig: DynamoDbConfig() {
     override fun dynamoDbClient(): DynamoDbClient = DynamoDbClient
         .builder()
         .region(Region.EU_CENTRAL_1)
-        .endpointOverride(URI.create(dbEndpoint))
         .build()
 }

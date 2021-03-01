@@ -15,11 +15,6 @@ import org.springframework.web.bind.annotation.*
 class RecipeController (
         private val service: RecipeService
 ) {
-    @PostMapping("/test")
-    fun test () =
-        service.migrateAllRecipes()
-
-
     @GetMapping
     fun listRecipes(): List<RecipeHeader> = service.getAllRecipes().map {
         DtoMapper.recipeToHeaderDto(it)

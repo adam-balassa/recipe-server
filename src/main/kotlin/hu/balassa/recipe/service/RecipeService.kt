@@ -1,20 +1,10 @@
 package hu.balassa.recipe.service
 
-import com.fasterxml.jackson.databind.ObjectMapper
 import hu.balassa.recipe.dto.NewStreetKitchenRecipe
 import hu.balassa.recipe.exception.NotFoundException
-import hu.balassa.recipe.model.Category
-import hu.balassa.recipe.model.Ingredient
-import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
 import hu.balassa.recipe.repository.RecipeRepository
 import org.springframework.stereotype.Service
-import software.amazon.awssdk.services.s3.model.CSVInput
-import software.amazon.awssdk.services.s3.model.JSONInput
-import java.io.File
-import java.net.URI
-import java.nio.file.Files
-import java.nio.file.Path
 
 @Service
 class RecipeService(
@@ -22,68 +12,6 @@ class RecipeService(
         private val imageUploadClient: ImageUploadClient,
         private val streetKitchenService: StreetKitchenService
 ) {
-
-    fun migrateAllRecipes() {
-        val files = mapOf(
-            "recipes" to "d10t11uakcvqtr_public_recipes.json",
-            "instructions" to "d10t11uakcvqtr_public_instructions.json",
-            "ingredientGroups" to "d10t11uakcvqtr_public_ingredient_groups.json",
-            "ingredients" to "d10t11uakcvqtr_public_ingredients.json"
-        )
-        val recipeNodes = ObjectMapper().readTree(Path.of("data", files["recipes"]).toFile())
-        val instructionNodes = ObjectMapper().readTree(Path.of("data", files["instructions"]).toFile())
-        val ingredientGroupNodes = ObjectMapper().readTree(Path.of("data", files["ingredientGroups"]).toFile())
-        val ingredientNodes = ObjectMapper().readTree(Path.of("data", files["ingredients"]).toFile())
-
-        val recipes: Map<String, Recipe> = recipeNodes.fold (mutableMapOf()){ map, recipeNode ->
-            val recipe = Recipe().apply {
-                id = recipeNode["id"].asText()
-                name = recipeNode["name"].asText()
-                imageUrl = recipeNode["image_url"].asText()
-                quantity = recipeNode["quantity"].asInt()
-                quantity2 = recipeNode["quantity2"].asInt()
-                instructions = emptyList()
-                category = Category.values()[recipeNode["category"].asInt()]
-            }
-            map.apply { put(recipe.id!!, recipe) }
-        }
-
-        instructionNodes.forEach {
-            val recipe = recipes[it["recipe_id"].asText()]!!
-            recipe.instructions += it["instructions"].asText()
-        }
-
-        val ingredientGroups: Map<Int, Pair<Int, IngredientGroup>> = ingredientGroupNodes.fold(mutableMapOf()) {
-                map, it ->
-            val ingredientGroup = IngredientGroup().apply {
-                name = it["name"].asText()
-                ingredients = emptySet()
-            }
-            val nextValue = it["recipe_id"].asInt() to ingredientGroup
-            val id = it["id"].asInt()
-            map.apply { put(id, nextValue) }
-        }
-
-        ingredientNodes.forEach {
-            val group = ingredientGroups[it["group_id"].asInt()]!!.second
-            group.ingredients += Ingredient().apply {
-                name = it["name"].asText()
-                quantity = it["quantity"].asDouble()
-                quantity2 = it["quantity2"].asDouble()
-            }
-        }
-
-        ingredientGroups.forEach { _, (recipeId, ingredientGroup) ->
-            if (recipeId != 0) {
-                val recipe = recipes[recipeId.toString()]!!
-                recipe.ingredientGroups += ingredientGroup
-            }
-        }
-
-        recipes.forEach { _, recipe ->
-            repository.save(recipe)
-        }
-    }
 
     fun getAllRecipes(): List<Recipe> = repository.findAll().toList()
 

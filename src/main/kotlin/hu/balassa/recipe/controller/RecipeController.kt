@@ -13,12 +13,11 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/recipe")
 @CrossOrigin(origins=["*"])
 class RecipeController (
-        private val service: RecipeService,
-        private val imageUploadClient: ImageUploadClient
+        private val service: RecipeService
 ) {
     @PostMapping("/test")
     fun test () =
-        imageUploadClient.uploadImageFromImageURL("https://evangelikus-hittan.netlify.app/assets/background.jpg")
+        service.migrateAllRecipes()
 
 
     @GetMapping
@@ -27,7 +26,7 @@ class RecipeController (
     }
 
     @GetMapping("/{id}")
-    fun getRecipe(@PathVariable("id") id: String): RecipeDto = service.getRecipe(id).let {
+    fun     getRecipe(@PathVariable("id") id: String): RecipeDto = service.getRecipe(id).let {
         DtoMapper.recipeToDto(it)
     }
 

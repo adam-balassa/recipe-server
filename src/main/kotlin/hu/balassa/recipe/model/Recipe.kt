@@ -26,6 +26,12 @@ class Recipe {
     lateinit var instructions: List<String>
 
     var category: Category = MAIN
+    
+    override fun toString(): String {
+        return "Recipe(id=$id, name='$name', imageUrl=$imageUrl, quantity=$quantity, quantity2=$quantity2, ingredientGroups=$ingredientGroups, instructions=$instructions, category=$category)"
+    }
+
+
 }
 
 enum class Category {

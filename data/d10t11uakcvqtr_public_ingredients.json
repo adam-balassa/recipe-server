@@ -1,0 +1,5876 @@
+[
+  {
+    "group_id": 192,
+    "name": "db cékla ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "db jégsaláta ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "zacskó salátalevél-keverék ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "szál répa (kisebb) ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "g vaj ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "1/2 db narancs ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "g feta ",
+    "quantity": 120,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "db szikkadt pita ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "balzsamecet ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 192,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "szem koktélparadicsom ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "ml víz ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "db szárított paradicsom ",
+    "quantity": 5,
+    "quantity2": 6
+  },
+  {
+    "group_id": 15,
+    "name": "ág friss kakukkfű ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "csokor friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "g parmezán ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "db csirkemell (kb. 200 g) ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "ml tejszín ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 15,
+    "name": "g spagetti ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "db tojássárgája ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "csipet só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "db tojásfehérje ",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "g mandulaliszt ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "csomag sütőpor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "tk vaníliás cukor ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "ml tej ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "g vaj ",
+    "quantity": 230,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "g cukor ",
+    "quantity": 350,
+    "quantity2": null
+  },
+  {
+    "group_id": 62,
+    "name": "g finomliszt ",
+    "quantity": 320,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "g vaj ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "g mascarpone ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "tk zselatinpor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "g cukor ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "ek vaníliás cukor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 63,
+    "name": "nagy marék málna (fagyasztott is szuper) ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 64,
+    "name": "g cukor ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 64,
+    "name": "db tojásfehérje ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 64,
+    "name": "ml víz ",
+    "quantity": 60,
+    "quantity2": null
+  },
+  {
+    "group_id": 78,
+    "name": "cukor ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 78,
+    "name": "g friss málna ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 78,
+    "name": "g porcukor ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "db csirkemell (kb. 200 g) ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "ág friss kakukkfű ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "g parmezán ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "szem koktélparadicsom ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "csokor friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "ml víz ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "g spagetti ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "ml tejszín ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 9,
+    "name": "db szárított paradicsom ",
+    "quantity": 5,
+    "quantity2": 6
+  },
+  {
+    "group_id": 10,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "db csirkemell (kb. 200 g) ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "szem koktélparadicsom ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "g parmezán ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "ml víz ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "ml tejszín ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "ág friss kakukkfű ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "g spagetti ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "csokor friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 10,
+    "name": "db szárított paradicsom ",
+    "quantity": 5,
+    "quantity2": 6
+  },
+  {
+    "group_id": 78,
+    "name": "db vaníliarúd ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 78,
+    "name": "csomag leveles tészta ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 78,
+    "name": "g mascarpone ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "fej vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "ml zsíros kókusztej ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "tk olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "db csirkecombfilé ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "diónyi friss gyömbér ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "tk garam masala ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "db nagy sütőtök ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "frissen őrölt bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "db sárgarépa ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "l víz (vagy alaplé) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "nagy csipet só ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "db tojás ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "g cukor ",
+    "quantity": 65,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "g liszt ",
+    "quantity": 120,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "marék áfonya ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "ml tej ",
+    "quantity": 380,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "csomag vaníliás cukor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 80,
+    "name": "ml tejszín ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "db sárga kaliforniai paprika ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "tk sűrített paradicsom ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "fej hagyma (nagy) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "db piros kaliforniai paprika ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "db zöld kaliforniai paprika ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "mk kakaópor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "tk füstölt paprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "üveg mexikói szósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "tk őrölt római kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "db piros chili ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 16,
+    "name": "tk fokhagymapor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "tk római kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "ek olaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "g rizs ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "ml zöldségalaplé ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 17,
+    "name": "konzerv vesebab ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "db lime leve és héja ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "szál kígyóuborka ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "csokor friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "csokor friss menta ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 18,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 18,
+    "name": "fej lila hagyma (kisebb) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 19,
+    "name": "db tortillalap ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 19,
+    "name": "ek tejföl ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 19,
+    "name": "g vörös cheddar ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 133,
+    "name": "tk kurkuma ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 134,
+    "name": "tökmagolaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 134,
+    "name": "pirított tökmag ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "g chia mag ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "ml víz ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "g eper ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "db érett mangó ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "ml kókusztej ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 24,
+    "name": "teszt hozzávaló",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 24,
+    "name": "teszt hozzávaló",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 24,
+    "name": "teszt hozzávaló",
+    "quantity": 3.4,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "citrom facsart leve ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "ek porcukor ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "csomag Bourbon vaníliás cukor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 25,
+    "name": "teszt hozzávaló",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 25,
+    "name": "teszt hozzávaló",
+    "quantity": 3.4,
+    "quantity2": null
+  },
+  {
+    "group_id": 25,
+    "name": "teszt hozzávaló",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "ek cukor ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 87,
+    "name": "ek aprított pisztácia ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 26,
+    "name": "teszt hozzávaló",
+    "quantity": 3.4,
+    "quantity2": null
+  },
+  {
+    "group_id": 26,
+    "name": "teszt hozzávaló",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 26,
+    "name": "teszt hozzávaló",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 83,
+    "name": "g bourbon vaníliás cukor ",
+    "quantity": 10,
+    "quantity2": null
+  },
+  {
+    "group_id": 83,
+    "name": "g pisztácia ",
+    "quantity": 290,
+    "quantity2": null
+  },
+  {
+    "group_id": 83,
+    "name": "g porcukor ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 83,
+    "name": "ek liszt ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 83,
+    "name": "db tojásfehérje ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "gerezd fokhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "tk római kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "tk só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "konzerv csicseriborsó ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "fej cékla ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "ek olívaolaj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "db citrom ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "ek tahini paszta (2 ek szezámmag, 3 ek olaj) ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 137,
+    "name": "ml víz ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 138,
+    "name": "ek olívaolaj ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 138,
+    "name": "g finomliszt ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 138,
+    "name": "tk só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 138,
+    "name": "tk sütőpor ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 138,
+    "name": "ml langyos víz ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "tk sütőpor ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "tk szódabikarbóna ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "g tejföl ",
+    "quantity": 240,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "fehérbors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "ek citromlé ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "g Milfina vaj ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "db tojássárgája ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 115,
+    "name": "ek víz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 116,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 116,
+    "name": "ek ecet ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 116,
+    "name": "db Natur aktív Bio tojás ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 117,
+    "name": "szelet húsvéti sonka ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 117,
+    "name": "szelet kalács ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 117,
+    "name": "bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 117,
+    "name": "csokor medvehagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "tk garam masala ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "tk kurkuma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "tk csilipehely ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "gerezd fokhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "tk citromlé ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "g csirkemellfilé ",
+    "quantity": 800,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "g natúr görög joghurt ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "db gyömbér fele (hüvelykujjnyi, 5-7 centis vastagabb darab) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 103,
+    "name": "tk őrölt római kömény ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 104,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 104,
+    "name": "g vaj ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "g passata ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "tk kurkuma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "tk csilipehely (ízlés szerint több vagy kevesebb) ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "a gyömbér másik fele ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "tk garam masala ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "ml habtejszín ",
+    "quantity": 230,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "tk római kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "g vaj ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "fej vöröshagyma (nagyobb) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 105,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 106,
+    "name": "g basmati rizs ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 106,
+    "name": "ek vaj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 106,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 107,
+    "name": "marék friss koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "ml tej ",
+    "quantity": 370,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "g liszt ",
+    "quantity": 280,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "ek porcukor ",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 141,
+    "name": "db tojás ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 141,
+    "name": "ml olvasztott vaj ",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 142,
+    "name": "baconszeletek ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 142,
+    "name": "juharszirup ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "db tojás ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "g friss élesztő ",
+    "quantity": 15,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "g liszt ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "g puha vaj ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "ml tej ",
+    "quantity": 255,
+    "quantity2": null
+  },
+  {
+    "group_id": 126,
+    "name": "g cukor ",
+    "quantity": 75,
+    "quantity2": null
+  },
+  {
+    "group_id": 127,
+    "name": "ek víz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 127,
+    "name": "db tojás ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "szál fehérrépa ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "fej zeller ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "tk őrölt kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "ml fehérbor ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "kg krumpli pucolva ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "ml búzasör ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "só, színes bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "db nagyobb hátsó csülök ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "tk majoranna ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "csokor petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "só, szemes bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "tk szárított kakukkfű ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "fej fokhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "fej fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "szál sárgarépa ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "g hagyma ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "db babérlevél ",
+    "quantity": 4,
+    "quantity2": 5
+  },
+  {
+    "group_id": 111,
+    "name": "fej hagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "g sertészsír ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 111,
+    "name": "g lila hagyma ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "ml olívaolaj ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "ml főzővíz ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "tk őrölt római kömény ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "ek tahini ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "db citrom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "g sütőtök ",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 191,
+    "name": "db csicseriborsó-konzerv ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "db csicseriborsó-konzerv",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "g sütőtök",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "db citrom",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "tk őrölt római kömény",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "ml főzővíz",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "ek tahini",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "ml olívaolaj",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 196,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "ml olvasztott vaj",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "db tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "ml tej",
+    "quantity": 370,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "g tejföl",
+    "quantity": 240,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "g liszt",
+    "quantity": 280,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "tk sütőpor",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 143,
+    "name": "ek porcukor",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 143,
+    "name": "tk szódabikarbóna",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 144,
+    "name": "baconszeletek",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 144,
+    "name": "juharszirup",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "tk őrölt kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "tk őrölt koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "mk chilipehely ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "db édesburgonya ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 146,
+    "name": "baconszeletek",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 146,
+    "name": "juharszirup",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "tk sütőpor",
+    "quantity": null,
+    "quantity2": 1
+  },
+  {
+    "group_id": 145,
+    "name": "g liszt",
+    "quantity": 280,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "g tejföl",
+    "quantity": 240,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "db tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "ml olvasztott vaj",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "ml tej",
+    "quantity": 370,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "tk szódabikarbóna",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 145,
+    "name": "ek porcukor",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 198,
+    "name": "ek szezámmag ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "ek gránátalmamag ",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 198,
+    "name": "csokor friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 198,
+    "name": "ek feta ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 199,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 199,
+    "name": "g szezámmag ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 199,
+    "name": "db citrom leve ",
+    "quantity": 0.25,
+    "quantity2": null
+  },
+  {
+    "group_id": 199,
+    "name": "ml víz ",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 120,
+    "name": "csokor medvehagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 120,
+    "name": "szelet húsvéti sonka",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 120,
+    "name": "szelet kalács",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 120,
+    "name": "bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "db tojássárgája",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "ek citromlé",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "ek víz",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "fehérbors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 118,
+    "name": "g Milfina vaj",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 119,
+    "name": "ek ecet",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 119,
+    "name": "db Natur aktív Bio tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 119,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "mk feketebors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "tk római kömény ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "tk fűszerpaprika ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "mk cayenne bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "tk kurkuma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "tk őrölt koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "mk fahéj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "dkg csirkecomb filé ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 157,
+    "name": "mk szerecsendió ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 158,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 158,
+    "name": "db nagy adag gyömbér ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 158,
+    "name": "ek joghurt ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "vaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "fej nagy vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "db kisebb adag gyömbér ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "konzerv hámozott paradicsom ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "ml habtejszín ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 159,
+    "name": "ek joghurt ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "ml natúr joghurt ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "tk só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "ml víz ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "g liszt ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "ek étolaj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "csomag szárított élesztő ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 160,
+    "name": "csomag sütőpor ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "g sütőtök ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "olívaolaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "g bulgur ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "db citrom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "db narancs ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 197,
+    "name": "csokor petrezselyem ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 202,
+    "name": "ek szezámmag",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 202,
+    "name": "mk chilipehely",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 202,
+    "name": "tk őrölt koriander",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 202,
+    "name": "tk őrölt kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 200,
+    "name": "ek feta",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 200,
+    "name": "olaj",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 200,
+    "name": "ek gránátalmamag",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 200,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 200,
+    "name": "csokor friss petrezselyem",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 200,
+    "name": "db édesburgonya",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 201,
+    "name": "g szezámmag",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 201,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 201,
+    "name": "db citrom leve",
+    "quantity": 0.25,
+    "quantity2": null
+  },
+  {
+    "group_id": 201,
+    "name": "ml víz",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 204,
+    "name": "ek feta",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 204,
+    "name": "olaj",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 204,
+    "name": "ek gránátalmamag",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 204,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 204,
+    "name": "db édesburgonya",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 204,
+    "name": "csokor friss petrezselyem",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 203,
+    "name": "db citrom leve",
+    "quantity": 0.25,
+    "quantity2": null
+  },
+  {
+    "group_id": 203,
+    "name": "ml víz",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 203,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 203,
+    "name": "g szezámmag",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 205,
+    "name": "ek szezámmag",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 205,
+    "name": "tk őrölt koriander",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 205,
+    "name": "tk őrölt kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 205,
+    "name": "mk chilipehely",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 206,
+    "name": "g szezámmag",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 206,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 206,
+    "name": "ml víz",
+    "quantity": 450,
+    "quantity2": null
+  },
+  {
+    "group_id": 206,
+    "name": "db citrom leve",
+    "quantity": 0.25,
+    "quantity2": null
+  },
+  {
+    "group_id": 207,
+    "name": "db édesburgonya",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 207,
+    "name": "olaj",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 207,
+    "name": "ek feta",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 207,
+    "name": "ek gránátalmamag",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 207,
+    "name": "csokor friss petrezselyem",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 207,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 208,
+    "name": "mk chilipehely",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 208,
+    "name": "ek szezámmag",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 208,
+    "name": "tk őrölt koriander",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 208,
+    "name": "tk őrölt kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "csipet szárított oregánó ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "gerezd fokhagyma ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "g darabolt paradicsom konzerv ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "db nagyobb padlizsán ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "fej hagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "só,bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "ek cukor ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 170,
+    "name": "g penne tészta ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "szem szegfűszeg ",
+    "quantity": 35,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "db póréhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "ek balzsamecet ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "ek egész színes bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "levél babérlevél ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "db sárgarépa ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "ml vörösbor ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "g baracklekvár ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "kg füstölt, kötözött lapockasonka ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "csokor újhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 173,
+    "name": "db narancs leve ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "fej brokkoli ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "db tojás ",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "g parmezán ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "szerecsendió ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "g olvasztott vaj ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "db kisebb piros chili ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "fej kisebb vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "csokor friss bazsalikom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 209,
+    "name": "reszelt parmezán ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "mk füstölt paprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "csipet chilipor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "csipet fűszerkömény ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "csipet őrölt gyömbér ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "tk rozmaring ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "tk bazsalikom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "ek olívaolaj ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "g vaj ",
+    "quantity": 60,
+    "quantity2": null
+  },
+  {
+    "group_id": 172,
+    "name": "db burgonya (kisebb) ",
+    "quantity": 6,
+    "quantity2": 8
+  },
+  {
+    "group_id": 172,
+    "name": "tk zsálya ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "g krumpli ",
+    "quantity": 600,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "db nagy padlizsán ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "gerezd fokhagyma ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "g paradicsompüré ",
+    "quantity": 70,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "ml passata (passzírozott paradicsom) ",
+    "quantity": 600,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "tk kakukkfű ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "tk rozmaring ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "g füstölt sajt (vagy trappista) ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 210,
+    "name": "olívaolaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "ek olaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "fej salottahagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "cm-nyi friss gyömbér ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "db piros chili ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "g tisztított garnéla ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 176,
+    "name": "g zabkeksz ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 176,
+    "name": "g vaj ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "g zselatin ",
+    "quantity": 5,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "g gesztenyemassza ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "g mascarpone ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "ml tejszín ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "ek porcukor ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 177,
+    "name": "ml sütőrum ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 178,
+    "name": "ml eszpresszó ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 178,
+    "name": "db babapiskóta ",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 178,
+    "name": "ek porcukor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 178,
+    "name": "kakaópor ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 179,
+    "name": "fehér csoki ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 179,
+    "name": "pár szem keksz ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "tk currypor ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "ml sűrű kókusztejszín ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "ek mogyoróvaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "ek halszósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "db lime ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "csokor friss koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "g jázmin rizs ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "ml víz ",
+    "quantity": 600,
+    "quantity2": null
+  },
+  {
+    "group_id": 212,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 185,
+    "name": "doboz görög joghurt (nagy doboz) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 185,
+    "name": "db kígyóuborka ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 185,
+    "name": "db citrom leve ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 185,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "tk római kömény ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "db paradicsom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "fej kisebb lilahagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "csapott tk pirospaprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "csapott tk fokhagymapor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "csapott tk bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "tk só ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "db salátalevél ",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 184,
+    "name": "csapott tk oregánó ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "konzerv csicseriborsó ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "késhegynyi szerecsendió ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "késhegynyi fahéj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 184,
+    "name": "db pita ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 148,
+    "name": "juharszirup",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 148,
+    "name": "baconszeletek",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "ml tej",
+    "quantity": 370,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "tk sütőpor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "g liszt",
+    "quantity": 280,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "g tejföl",
+    "quantity": 240,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "db tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "tk szódabikarbóna",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "ml olvasztott vaj",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 147,
+    "name": "ek porcukor",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 211,
+    "name": "ek olívaolaj ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "gerezd fokhagyma ",
+    "quantity": 8,
+    "quantity2": null
+  },
+  {
+    "group_id": 128,
+    "name": "db tojás",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 128,
+    "name": "ek víz",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "db tojás",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "g friss élesztő",
+    "quantity": 15,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "ml tej",
+    "quantity": 255,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "g cukor",
+    "quantity": 75,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "g puha vaj",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 129,
+    "name": "g liszt",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "só, szemes bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "fej zeller",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "szál fehérrépa",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "db nagyobb hátsó csülök",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "fej fokhagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "tk szárított kakukkfű",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "db babérlevél",
+    "quantity": 4,
+    "quantity2": 5
+  },
+  {
+    "group_id": 130,
+    "name": "ml búzasör",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "fej hagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "tk majoranna",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "csokor petrezselyem",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "fej fokhagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "g hagyma",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "tk őrölt kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "só, színes bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "kg krumpli pucolva",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "ml fehérbor",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "szál sárgarépa",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "g sertészsír",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 130,
+    "name": "g lila hagyma",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "tk zselatinpor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "g cukor",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "g vaj",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "ek vaníliás cukor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "g mascarpone",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 66,
+    "name": "nagy marék málna (fagyasztott is szuper)",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 65,
+    "name": "ml víz",
+    "quantity": 60,
+    "quantity2": null
+  },
+  {
+    "group_id": 65,
+    "name": "db tojásfehérje",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 65,
+    "name": "g cukor",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "g vaj",
+    "quantity": 230,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "csomag sütőpor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "db tojássárgája",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "g mandulaliszt",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "g finomliszt",
+    "quantity": 320,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "db tojásfehérje",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "g cukor",
+    "quantity": 350,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "tk vaníliás cukor",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "csipet só",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 67,
+    "name": "ml tej",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "tk szemes mustár ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "fej vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "db aszalt paradicsom ",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "g csirkemell ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "szerecsendió ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "ml tejszín ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 68,
+    "name": "g bébispenót ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "g mascarpone",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "g porcukor",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "db vaníliarúd",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "csomag leveles tészta",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "cukor",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 79,
+    "name": "g friss málna",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "db tojás",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "ml tej",
+    "quantity": 380,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "marék áfonya",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "g cukor",
+    "quantity": 65,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "csomag vaníliás cukor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "ml tejszín",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 81,
+    "name": "g liszt",
+    "quantity": 120,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "g parmezán ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "ek olaj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "g mirelit zöldborsó ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "fej vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "gerezd fokhagyma ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "ek pirított szeletelt mandula ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "friss szerecsendió ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "db citrom facsart leve leve ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "ml alaplé ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "g vaj ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 82,
+    "name": "g reszelt parmezán ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "ek cukor",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "citrom facsart leve",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "ml víz",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "csomag Bourbon vaníliás cukor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "g eper",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "ml kókusztej",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "db érett mangó",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "g chia mag",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "ek aprított pisztácia",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 88,
+    "name": "ek porcukor",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 89,
+    "name": "g bourbon vaníliás cukor",
+    "quantity": 10,
+    "quantity2": null
+  },
+  {
+    "group_id": 89,
+    "name": "ek liszt",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 89,
+    "name": "g porcukor",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 89,
+    "name": "db tojásfehérje",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 89,
+    "name": "g pisztácia",
+    "quantity": 290,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "ml víz ",
+    "quantity": 25,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "ek rizsecet ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "ek olaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "tk barnacukor ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "fej vöröshagyma ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "tk worcestershire szósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "tk szójaszósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "ml whiskey ",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "ek ketchup ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 90,
+    "name": "csipet bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "ág kakukkfű (kisebb) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "dkg gomba (csiperke, laska, ördögszekér, shiitake, shimeji vegyesen) ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "ág rozmaring (kisebb) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "db nagy kocka vaj ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 91,
+    "name": "kis csokor petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 92,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 92,
+    "name": "bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 92,
+    "name": "víz ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 92,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 92,
+    "name": "db csirkemell ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "db babérlevél ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "dl habtejszín ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "dkg petrezselyemgyökér ",
+    "quantity": 5,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "fej kisebb vöröshagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "dl száraz fehérbor ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "tk dijoni mustár ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 100,
+    "name": "dkg sárgarépa ",
+    "quantity": 10,
+    "quantity2": null
+  },
+  {
+    "group_id": 101,
+    "name": "ek méz ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 101,
+    "name": "g vaj ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 101,
+    "name": "ág friss kakukkfű ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 101,
+    "name": "db csirkemellfilé ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 101,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "db tojás ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "tk só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "dkg vaj vagy zsír ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "dkg lisztesebb (C típusú) burgonya ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "g élesztő ",
+    "quantity": 15,
+    "quantity2": null
+  },
+  {
+    "group_id": 102,
+    "name": "dkg liszt ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "csokor friss koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "db cukkini ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "ek olívaolaj ",
+    "quantity": 3,
+    "quantity2": 4
+  },
+  {
+    "group_id": 108,
+    "name": "csokor friss koriander ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "g kuszkusz ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "ml forró víz ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "db csirkemell ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 108,
+    "name": "db lime ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "ek aprított friss petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "szál kakukkfű ",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "ml zöldségalaplé ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "kis csokor bazsalikom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "g répa ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "db cukkini ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "g vörös quinoa ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "szál újhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 109,
+    "name": "g zellerszár ",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 110,
+    "name": "csipet só ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 110,
+    "name": "g kesudió ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 110,
+    "name": "ek deaktivált élesztő ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "csomag gnocchi (1 kg) ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "csipet szárított oregánó ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "ml víz ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "g fagyasztott spenót ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "konzerv gomba ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "db citrom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "gerezd fokhagyma ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "ml fehérbor ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "ml habtejszín ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "ek olívaolaj ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 112,
+    "name": "db zöldségalaplé-zselé ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 113,
+    "name": "dkg liszt ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 113,
+    "name": "dl víz ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 113,
+    "name": "dkg friss spenót ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 113,
+    "name": "db tojás ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 113,
+    "name": "Só, bors, szerecsendió ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "dl száraz fehérbor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "fej nagyobb vöröshagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "dl habtejszín ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "dkg emmentáli sajt ",
+    "quantity": 15,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "frissen tört bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 114,
+    "name": "dkg kockára vágott bacon vagy sonka ",
+    "quantity": 15,
+    "quantity2": null
+  },
+  {
+    "group_id": 122,
+    "name": "g basmati rizs",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 122,
+    "name": "ek vaj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 122,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 121,
+    "name": "marék friss koriander",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "tk garam masala",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "g passata",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "fej vöröshagyma (nagyobb)",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "a gyömbér másik fele",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "tk római kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "tk kurkuma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "g vaj",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "tk csilipehely (ízlés szerint több vagy kevesebb)",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "gerezd fokhagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 123,
+    "name": "ml habtejszín",
+    "quantity": 230,
+    "quantity2": null
+  },
+  {
+    "group_id": 125,
+    "name": "g vaj",
+    "quantity": 30,
+    "quantity2": null
+  },
+  {
+    "group_id": 125,
+    "name": "ek olívaolaj",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "tk csilipehely",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "tk őrölt római kömény",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "g natúr görög joghurt",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "tk kurkuma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "tk citromlé",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "g csirkemellfilé",
+    "quantity": 800,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "db gyömbér fele (hüvelykujjnyi, 5-7 centis vastagabb darab)",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "gerezd fokhagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 124,
+    "name": "tk garam masala",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "ml fehérbor",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "g bacon",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "g zöldspárga",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "ml tejszín",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "gerezd fokhagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "g camambert",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 131,
+    "name": "g penne",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "fej vöröshagyma (kicsi) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "ml fehérbor ",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g parmezán ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g füstölt sajt ",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "db citrom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g sütőtök megpucolva, apró kockákra vágva ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "l zöldségalaplé ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "ek fenyőmag ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g rizottó rizs (én mindig Arborio fajtát használok) ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g fagyasztott gesztenye ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "szerecsendió ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "csokor friss bazsalikom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 132,
+    "name": "g vaj ",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 136,
+    "name": "tökmagolaj",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 136,
+    "name": "pirított tökmag",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "db sárgarépa",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "tk kurkuma",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "ml zsíros kókusztej",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "db nagy sütőtök",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "tk olívaolaj",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "diónyi friss gyömbér",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "fej vöröshagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "nagy csipet só",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "l víz (vagy alaplé)",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "frissen őrölt bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "tk garam masala",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 135,
+    "name": "gerezd fokhagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 140,
+    "name": "ek olívaolaj",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 140,
+    "name": "tk sütőpor",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 140,
+    "name": "ml langyos víz",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 140,
+    "name": "tk só",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 140,
+    "name": "g finomliszt",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "ek tahini paszta (2 ek szezámmag, 3 ek olaj)",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "tk római kömény",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "konzerv csicseriborsó",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "fej cékla",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "db citrom",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "gerezd fokhagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "tk só",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "ek olívaolaj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 139,
+    "name": "ml víz",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "pohár víz",
+    "quantity": 1.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "ek ketchup",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "cheddar sajt",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "konzerv feketebab",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "nagy édeskrumpli",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "ek olivaolaj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "nagyobb lap tortilla",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "ek szójaszósz",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "nagy vöröshagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "ek mustár",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "chili pehely",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 149,
+    "name": "kömény",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 150,
+    "name": "bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 150,
+    "name": "szelet kalács",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 150,
+    "name": "szelet húsvéti sonka",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 150,
+    "name": "csokor medvehagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "fehérbors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "ek citromlé",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "ek víz",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "g Milfina vaj",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "db tojássárgája",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 151,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 152,
+    "name": "db Natur aktív Bio tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 152,
+    "name": "ek ecet",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 152,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "db paradicsom ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "g rókagomba ",
+    "quantity": 500,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "mk majoranna ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "tk liszt ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "ek tejföl ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "ek olaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "mk őrölt kömény ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "tk pirospaprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "db paprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "nagy csokor petrezselyem ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 153,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 154,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 154,
+    "name": "ek olaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 154,
+    "name": "gerezd fokhagyma ",
+    "quantity": 5,
+    "quantity2": null
+  },
+  {
+    "group_id": 154,
+    "name": "g fagyasztott spenót ",
+    "quantity": 800,
+    "quantity2": null
+  },
+  {
+    "group_id": 155,
+    "name": "g liszt ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 155,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 155,
+    "name": "g vaj ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 155,
+    "name": "ml tej ",
+    "quantity": 800,
+    "quantity2": null
+  },
+  {
+    "group_id": 155,
+    "name": "fél szerecsendió reszelve ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 156,
+    "name": "g reszelt parmezán ",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 156,
+    "name": "lasagnelapok ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 156,
+    "name": "g mozzarella ",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "fej nagy vöröshagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "konzerv hámozott paradicsom",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "ml habtejszín",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "db kisebb adag gyömbér",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "vaj",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 161,
+    "name": "ek joghurt",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "ek étolaj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "ml natúr joghurt",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "g liszt",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "csomag sütőpor",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "tk só",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "csomag szárított élesztő",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 162,
+    "name": "ml víz",
+    "quantity": 80,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "tk fűszerpaprika",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "tk római kömény",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "mk szerecsendió",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "dkg csirkecomb filé",
+    "quantity": 50,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "tk őrölt koriander",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "mk feketebors",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "mk fahéj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "mk cayenne bors",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 163,
+    "name": "tk kurkuma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 164,
+    "name": "ek joghurt",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 164,
+    "name": "db nagy adag gyömbér",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 164,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "g kukoricaliszt ",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "mk sütőpor ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "mk bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "ek liszt ",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "mk só ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "mk cayenne bors ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "tk fokhagyma granulátum ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "ml víz ",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 165,
+    "name": "g kukoricapehely ",
+    "quantity": 60,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "tk mustár ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "csokor snidling ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "db citrom leve ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "csokor petrezselyem ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "ek házi majonéz ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "tk fokhagyma granulátum ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 166,
+    "name": "dl tej ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 167,
+    "name": "g barna csiperkegomba ",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 167,
+    "name": "ek olívaolaj ",
+    "quantity": 3,
+    "quantity2": 4
+  },
+  {
+    "group_id": 167,
+    "name": "cm-es gyömbér reszelve vagy 1 tk gyömbérpor ",
+    "quantity": 1,
+    "quantity2": 2
+  },
+  {
+    "group_id": 167,
+    "name": "ek méz ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 167,
+    "name": "fej kisebb brokkoli ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 167,
+    "name": "ek szójaszósz ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "db lime ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "csipet chilipehely ",
+    "quantity": 1,
+    "quantity2": 2
+  },
+  {
+    "group_id": 168,
+    "name": "g rizstészta ",
+    "quantity": 150,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "ek szójaszósz ",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "cm-es gyömbér reszelve ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "gerezd reszelt fokhagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "tk sriracha szósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "ek olívaolaj ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 168,
+    "name": "ek Worcester szósz ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 169,
+    "name": "marék pirított szezámmag ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "csipet szárított oregánó",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "g penne tészta",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "gerezd fokhagyma",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "só,bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "g darabolt paradicsom konzerv",
+    "quantity": 400,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "ek olívaolaj",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "fej hagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "ek cukor",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 171,
+    "name": "db nagyobb padlizsán",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "db póréhagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "só",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "ek egész színes bors",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "ml vörösbor",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "kg füstölt, kötözött lapockasonka",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "ek balzsamecet",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "fej hagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "csokor újhagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "db sárgarépa",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "szem szegfűszeg",
+    "quantity": 35,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "g baracklekvár",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "db narancs leve",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 174,
+    "name": "levél babérlevél",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "csipet őrölt gyömbér",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "mk füstölt paprika",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "csipet chilipor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "ek olívaolaj",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "csipet fűszerkömény",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "gerezd fokhagyma",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "g vaj",
+    "quantity": 60,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "tk bazsalikom",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "tk rozmaring",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 175,
+    "name": "db burgonya (kisebb)",
+    "quantity": 6,
+    "quantity2": 8
+  },
+  {
+    "group_id": 175,
+    "name": "tk zsálya",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 181,
+    "name": "g zabkeksz",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 181,
+    "name": "g vaj",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "ek porcukor",
+    "quantity": 3,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "g gesztenyemassza",
+    "quantity": 250,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "ml sütőrum",
+    "quantity": 20,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "g zselatin",
+    "quantity": 5,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "ml tejszín",
+    "quantity": 200,
+    "quantity2": null
+  },
+  {
+    "group_id": 182,
+    "name": "g mascarpone",
+    "quantity": 300,
+    "quantity2": null
+  },
+  {
+    "group_id": 180,
+    "name": "db babapiskóta",
+    "quantity": 6,
+    "quantity2": null
+  },
+  {
+    "group_id": 180,
+    "name": "ek porcukor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 180,
+    "name": "ml eszpresszó",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 180,
+    "name": "kakaópor",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 183,
+    "name": "fehér csoki",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 183,
+    "name": "pár szem keksz",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 187,
+    "name": "db kígyóuborka",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 187,
+    "name": "doboz görög joghurt (nagy doboz)",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 187,
+    "name": "gerezd fokhagyma",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 187,
+    "name": "db citrom leve",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "db pita",
+    "quantity": 4,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "db salátalevél",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 186,
+    "name": "tk só",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "csapott tk bors",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "csapott tk fokhagymapor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "konzerv csicseriborsó",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "csapott tk oregánó",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "fej kisebb lilahagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "tk római kömény",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "késhegynyi szerecsendió",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "csapott tk pirospaprika",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "késhegynyi fahéj",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 186,
+    "name": "db paradicsom",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 189,
+    "name": "baconszeletek",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 189,
+    "name": "juharszirup",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "ml tej",
+    "quantity": 370,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "tk szódabikarbóna",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "ml olvasztott vaj",
+    "quantity": 40,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "g tejföl",
+    "quantity": 240,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "ek porcukor",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 188,
+    "name": "g liszt",
+    "quantity": 280,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "tk sütőpor",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 188,
+    "name": "db tojás",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "db paradicsom ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "fej nagyobb vöröshagyma (a hús mennyiségének 30%-a) ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": " só ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "dl víz + 3 dl víz ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "gerezd fokhagyma ",
+    "quantity": 2,
+    "quantity2": 3
+  },
+  {
+    "group_id": 190,
+    "name": "bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "tk őrölt kömény ",
+    "quantity": 0.5,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "ek fűszerpaprika ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "db TV paprika ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": " galuska ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "kg marhalábszár ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 190,
+    "name": "olaj ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "fej hagyma ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "kg fehér csiperkegomba (kisebb fejű gombákat válasszunk, hogy tényleg egy falatnyi legyen) ",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "g mozzarella ",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "db padlizsán ",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "g kéksajt ",
+    "quantity": 120,
+    "quantity2": null
+  },
+  {
+    "group_id": 211,
+    "name": "só, bors ",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "g mozzarella",
+    "quantity": 100,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "kg kisfejű fehér csiperkegomba",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "só, bors",
+    "quantity": null,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "g kéksajt",
+    "quantity": 120,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "db padlizsán",
+    "quantity": 2,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "fej hagyma",
+    "quantity": 1,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "gerezd fokhagyma",
+    "quantity": 8,
+    "quantity2": null
+  },
+  {
+    "group_id": 213,
+    "name": "ek olívaolaj",
+    "quantity": 3,
+    "quantity2": null
+  }
+]

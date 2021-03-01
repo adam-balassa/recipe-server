@@ -57,7 +57,6 @@ class AWSImageUploadClient(
         }
 
     private fun uploadImageToS3(bucket: String, directory: String, file: File) {
-        print(file.name)
         val request = PutObjectRequest
             .builder()
             .bucket(bucket)

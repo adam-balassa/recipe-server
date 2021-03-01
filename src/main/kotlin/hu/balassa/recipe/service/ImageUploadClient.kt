@@ -1,14 +1,19 @@
 package hu.balassa.recipe.service
 
-import com.amazonaws.services.s3.AmazonS3
-import com.amazonaws.services.s3.model.CannedAccessControlList
-import com.amazonaws.services.s3.model.PutObjectRequest
+
 import hu.balassa.recipe.util.Util
+import org.apache.http.client.utils.URIBuilder
 import org.springframework.stereotype.Service
+import software.amazon.awssdk.services.s3.S3Client
+import software.amazon.awssdk.services.s3.model.ObjectCannedACL
+import software.amazon.awssdk.services.s3.model.PutObjectAclRequest
+import software.amazon.awssdk.services.s3.model.PutObjectRequest
 import java.io.File
 import java.io.InputStream
+import java.net.URI
 import java.net.URL
 import java.nio.file.Files
+import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 
 
@@ -30,7 +35,7 @@ interface ImageUploadClient {
 
 @Service
 class AWSImageUploadClient(
-    private val awsS3Client: AmazonS3
+    private val s3: S3Client
 ): ImageUploadClient {
 
     companion object {
@@ -38,21 +43,28 @@ class AWSImageUploadClient(
         private const val directory = "images"
     }
 
-    override fun uploadImageFromFile(image: File): String =
-            uploadImageToS3(bucket, directory, image.name, image)
+    override fun uploadImageFromFile(image: File): String {
+        uploadImageToS3(bucket, directory, image)
+        return "https://$bucket.s3.eu-central-1.amazonaws.com/$directory/${image.name}"
+    }
 
     override fun uploadImageFromImageURL(imageUrl: String): String =
         try {
             super.uploadImageFromImageURL(imageUrl)
         } catch (err: Exception) {
+            err.printStackTrace()
             ""
         }
 
-    private fun uploadImageToS3(bucket: String, directory: String, imageName: String, file: File): String {
-        val request = PutObjectRequest(bucket, "$directory/$imageName", file)
-        request.cannedAcl = CannedAccessControlList.PublicRead
-        awsS3Client.putObject(request)
-        val url = awsS3Client.getUrl("$bucket/$directory", imageName)
-        return url.toExternalForm()
+    private fun uploadImageToS3(bucket: String, directory: String, file: File) {
+        print(file.name)
+        val request = PutObjectRequest
+            .builder()
+            .bucket(bucket)
+            .acl(ObjectCannedACL.PUBLIC_READ)
+            .key("$directory/${file.name}")
+            .build()
+
+        s3.putObject(request, Path.of(file.toURI()))
     }
 }

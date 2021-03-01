@@ -1,38 +1,30 @@
 package hu.balassa.recipe.model
 
 import hu.balassa.recipe.model.Category.MAIN
-import javax.persistence.*
-import javax.persistence.CascadeType.ALL
-import javax.persistence.FetchType.EAGER
-import javax.persistence.FetchType.LAZY
+import hu.balassa.recipe.service.mapping.RecipeIngredientConverter
+import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbAttribute
+import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean
+import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbConvertedBy
+import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey
 
-@Entity
-@Table(name = "recipes")
+@DynamoDbBean
 class Recipe {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long? = null
+    @get:DynamoDbPartitionKey
+    var id: String? = null
 
-    @Column(nullable = false, length = 80, unique = true)
     lateinit var name: String
 
-    @Column(length = 170)
     var imageUrl: String? = null
 
     var quantity: Int = 0
+
     var quantity2: Int? = null
 
-    @OneToMany(cascade = [ALL], fetch = LAZY)
-    @JoinColumn(name = "recipe_id")
+    @get: DynamoDbConvertedBy(RecipeIngredientConverter::class)
     var ingredientGroups: Set<IngredientGroup> = emptySet()
 
-    @ElementCollection(fetch = EAGER)
-    @CollectionTable(name = "instructions", joinColumns = [JoinColumn(name = "recipe_id")])
-    @Column(length = 1000)
     lateinit var instructions: List<String>
 
-    @Enumerated
-    @Column(nullable=false)
     var category: Category = MAIN
 }
 

@@ -3,12 +3,12 @@ package hu.balassa.recipe.repository
 import hu.balassa.recipe.config.DynamoDbConfig
 import hu.balassa.recipe.model.Recipe
 import hu.balassa.recipe.util.Util
-import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Repository
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient
+import software.amazon.awssdk.enhanced.dynamodb.Expression
 import software.amazon.awssdk.enhanced.dynamodb.Key
 import software.amazon.awssdk.enhanced.dynamodb.TableSchema
-import java.util.*
+import software.amazon.awssdk.services.dynamodb.model.AttributeValue
 
 @Repository
 class RecipeRepository(
@@ -26,8 +26,15 @@ class RecipeRepository(
     fun findAll(): List<Recipe> = table.scan().items().toList()
 
     fun save(recipe: Recipe): Recipe {
-        recipe.id = Util.generateUUID()
-        table.putItem(recipe)
+        when (recipe.id) {
+            null -> {
+                recipe.id = Util.generateUUID()
+                table.putItem(recipe)
+            }
+            else -> {
+                table.updateItem(recipe)
+            }
+        }
         return recipe
     }
 
@@ -41,4 +48,18 @@ class RecipeRepository(
         table.getItem(
             Key.builder().partitionValue(id).build()
         )
+
+    fun findByNameContains(keywords: Collection<String>) = table.scan {
+        it.filterExpression(
+            Expression.builder()
+            .expression(keywords.mapIndexed { i, _ -> "contains(#recipeName, :queriedName$i)"}.joinToString(" or "))
+            .expressionNames(mapOf("#recipeName" to "name"))
+            .expressionValues(keywords.foldIndexed(mutableMapOf()) { i, map, keyword ->
+                map.apply {
+                    put(":queriedName$i", AttributeValue.builder().s(keyword).build())
+                }
+            })
+            .build()
+        )
+    }.items().toList()
 }

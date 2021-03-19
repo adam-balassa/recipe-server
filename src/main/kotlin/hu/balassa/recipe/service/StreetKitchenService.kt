@@ -27,7 +27,7 @@ class StreetKitchenService {
         return Recipe().also {
             it.name = recipeName
             it.imageUrl = imageUrl
-            it.ingredientGroups = ingredientGroups.toSet()
+            it.ingredientGroups = ingredientGroups
             it.instructions = instructions
             it.quantity = quantity
             it.quantity2 = quantity2
@@ -44,7 +44,7 @@ class StreetKitchenService {
         for (group in groupElements) {
             val groupName = group.select("h3").text()
             val ingredients = getIngredients(group)
-            ingredientGroups.add(IngredientGroup().also { it.name = groupName; it.ingredients = ingredients.toSet() })
+            ingredientGroups.add(IngredientGroup().also { it.name = groupName; it.ingredients = ingredients })
         }
         return ingredientGroups
     }
@@ -67,7 +67,16 @@ class StreetKitchenService {
 
     private fun getInstructions(document: Document): List<String> {
         val paragraphs = document.select(".the-content-div p")
-        return paragraphs.dropLast(1).map { it.text() }
+        return paragraphs.map { it.text() }.fold(mutableListOf<String>() to false) { acc, current ->
+            when {
+                acc.second -> acc
+                current.substring(0 until 15).contains("Ha tetszett a") -> acc.first to true
+                else -> {
+                    acc.first.add(current)
+                    acc.first to false
+                }
+            }
+        }.first
     }
 
     private fun String.toQuantity(): Double? {

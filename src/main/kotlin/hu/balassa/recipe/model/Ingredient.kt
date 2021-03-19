@@ -1,5 +1,8 @@
 package hu.balassa.recipe.model
 
+import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean
+
+@DynamoDbBean
 class Ingredient {
     var quantity: Double? = null
     var quantity2: Double? = null

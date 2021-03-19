@@ -52,7 +52,7 @@ class DtoMapper {
 
             fun ingredientGroupToModel(ingredientGroup: IngredientGroupDto) = IngredientGroup().apply {
                 name = ingredientGroup.name
-                ingredients = ingredientGroup.ingredients.map { ingredient -> ingredientToModel(ingredient) }.toSet()
+                ingredients = ingredientGroup.ingredients.map { ingredient -> ingredientToModel(ingredient) }
             }
 
             return Recipe().apply {
@@ -61,7 +61,7 @@ class DtoMapper {
                 imageUrl = recipe.imageUrl
                 quantity = recipe.quantity
                 quantity2 = recipe.quantity2
-                ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToModel(ingredientGroup) }.toSet()
+                ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToModel(ingredientGroup) }
                 instructions = recipe.instructions
                 category = recipe.category
             }

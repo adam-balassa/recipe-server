@@ -18,7 +18,7 @@ abstract class DynamoDbConfig {
         const val tableName = "recipe"
     }
 
-    protected abstract fun dynamoDbClient(): DynamoDbClient
+    abstract fun dynamoDbClient(): DynamoDbClient
 
     open fun amazonDynamoDB(): DynamoDbEnhancedClient {
         val db = dynamoDbClient()
@@ -85,6 +85,7 @@ class DynamoDbRoleConfig: DynamoDbConfig() {
         return super.amazonDynamoDB()
     }
 
+    @Bean
     override fun dynamoDbClient(): DynamoDbClient = DynamoDbClient
         .builder()
         .region(Region.EU_CENTRAL_1)

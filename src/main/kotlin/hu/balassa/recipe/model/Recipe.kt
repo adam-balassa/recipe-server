@@ -1,9 +1,7 @@
 package hu.balassa.recipe.model
 
 import hu.balassa.recipe.model.Category.MAIN
-import hu.balassa.recipe.service.mapping.RecipeIngredientConverter
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean
-import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbConvertedBy
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey
 
 @DynamoDbBean
@@ -25,6 +23,8 @@ class Recipe {
     lateinit var instructions: List<String>
 
     var category: Category = MAIN
+
+    var isVegetarian: Boolean = false
 
     override fun toString(): String {
         return "Recipe(id=$id, name='$name', imageUrl=$imageUrl, quantity=$quantity, quantity2=$quantity2, ingredientGroups=$ingredientGroups, instructions=$instructions, category=$category)"

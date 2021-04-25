@@ -17,6 +17,7 @@ class DtoMapper {
             quantity = recipe.quantity
             quantity2 = recipe.quantity2
             category = recipe.category
+            isVegetarian = recipe.isVegetarian
         }
 
         fun recipeToDto(recipe: Recipe): RecipeDto {
@@ -40,6 +41,7 @@ class DtoMapper {
                 ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToDto(ingredientGroup) }
                 instructions = recipe.instructions
                 category = recipe.category
+                isVegetarian = recipe.isVegetarian
             }
         }
 
@@ -64,6 +66,7 @@ class DtoMapper {
                 ingredientGroups = recipe.ingredientGroups.map { ingredientGroup -> ingredientGroupToModel(ingredientGroup) }
                 instructions = recipe.instructions
                 category = recipe.category
+                isVegetarian = recipe.isVegetarian
             }
         }
     }

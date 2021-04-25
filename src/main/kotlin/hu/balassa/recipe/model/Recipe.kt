@@ -24,6 +24,8 @@ class Recipe {
 
     var category: Category = MAIN
 
+    var isVegetarian: Boolean = false
+
     override fun toString(): String {
         return "Recipe(id=$id, name='$name', imageUrl=$imageUrl, quantity=$quantity, quantity2=$quantity2, ingredientGroups=$ingredientGroups, instructions=$instructions, category=$category)"
     }

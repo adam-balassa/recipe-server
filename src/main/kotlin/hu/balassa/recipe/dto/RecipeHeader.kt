@@ -8,5 +8,6 @@ open class RecipeHeader {
     var imageUrl: String? = null
     var quantity: Int = 0
     var quantity2: Int? = null
+    var isVegetarian: Boolean = false
     lateinit var category: Category
 }

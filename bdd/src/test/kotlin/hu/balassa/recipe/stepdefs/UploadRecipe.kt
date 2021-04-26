@@ -14,6 +14,7 @@ class UploadRecipe: BaseStepDef() {
         val result = web.post().uri("/recipe")
             .bodyValue(recipeOf())
             .exchange()
+            .expectStatus().isCreated
             .expectBody(Recipe::class.java)
             .returnResult()
             .responseBody

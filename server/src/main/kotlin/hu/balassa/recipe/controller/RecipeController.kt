@@ -9,6 +9,8 @@ import hu.balassa.recipe.service.RecipeService
 import hu.balassa.recipe.service.mapping.DtoMapper
 import hu.balassa.recipe.util.Util
 import org.springframework.http.HttpStatus
+import org.springframework.http.HttpStatus.CREATED
+import org.springframework.http.HttpStatus.NO_CONTENT
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.multipart.MultipartFile
 import java.nio.file.Files
@@ -26,6 +28,7 @@ class RecipeController (
     }
 
     @PostMapping("/image", consumes = ["multipart/form-data"])
+    @ResponseStatus(CREATED)
     fun uploadFile(@RequestParam("imageFile") image: MultipartFile): ImageUrl {
         val bytes = image.bytes
         val path = Files.createTempFile(Util.generateUUID(), ".jpg")
@@ -45,6 +48,7 @@ class RecipeController (
     }
 
     @PostMapping
+    @ResponseStatus(CREATED)
     fun addRecipe(@RequestBody recipe: RecipeDto) = DtoMapper.recipeToDto(
             service.saveRecipe(DtoMapper.recipeToModel(recipe).apply { id = null })
     )
@@ -55,11 +59,12 @@ class RecipeController (
     )
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ResponseStatus(NO_CONTENT)
     fun deleteRecipe(@PathVariable("id") id: String) = service.deleteRecipe(id)
 
 
     @PostMapping("/streetkitchen")
+    @ResponseStatus(CREATED)
     fun addStreetKitchenRecipe(@RequestBody info: NewStreetKitchenRecipe): RecipeDto {
         val recipe = service.addStreetKitchenRecipe(info)
         return DtoMapper.recipeToDto(recipe)

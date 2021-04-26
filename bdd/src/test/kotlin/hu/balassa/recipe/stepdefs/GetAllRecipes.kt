@@ -2,8 +2,10 @@ package hu.balassa.recipe.stepdefs
 
 import hu.balassa.recipe.dto.RecipeHeader
 import hu.balassa.recipe.helpers.DynamoHelper
+import hu.balassa.recipe.helpers.RecipeHelper
 import hu.balassa.recipe.helpers.RecipeHelper.recipeOf
 import hu.balassa.recipe.model.Recipe
+import io.cucumber.datatable.DataTable
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
@@ -17,13 +19,22 @@ class GetAllRecipes: BaseStepDef() {
     @Given("there (is)(are) {int} recipe(s) in the database")
     fun initializeDBWithOneItem(numberOfRecipes: Int) {
         dynamo.withRecipes(MutableList(numberOfRecipes) {
-            recipeOf(id = "testId$it")
+            RecipeHelper.recipeOf(id = "testId$it")
+        })
+    }
+
+    @Given("the following recipes are in the database")
+    fun initializeRecipes(data: DataTable) {
+        val recipes = data.asMaps<String, String>(String::class.java, String::class.java)
+        dynamo.withRecipes (recipes.map {
+            recipeOf(id = it["id"]!!, name = it["name"]!!)
         })
     }
 
     @When("I request getting all recipes")
     fun getRecipesRequest() {
         val result = web.get().uri("/recipe").exchange()
+            .expectStatus().isOk
             .expectBodyList(RecipeHeader::class.java)
             .returnResult()
             .responseBody
@@ -47,6 +58,18 @@ class GetAllRecipes: BaseStepDef() {
     fun checkIds() {
         assertThat(resultList).allSatisfy {
             assertThat(it.id).matches("^testId\\d$")
+        }
+    }
+
+    @Then("I receive the following recipes")
+    fun checkForRecipes(data: DataTable) {
+        val recipes = data.asMaps<String, String>(String::class.java, String::class.java)
+        assertThat(resultList).hasSize(recipes.size)
+        recipes.forEach { recipeData ->
+            assertThat(resultList).anySatisfy {
+                assertThat(it.id).isEqualTo(recipeData["id"])
+                assertThat(it.name).isEqualTo(recipeData["name"])
+            }
         }
     }
 }

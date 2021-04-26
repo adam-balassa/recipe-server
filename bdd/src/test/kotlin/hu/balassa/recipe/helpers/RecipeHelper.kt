@@ -8,7 +8,7 @@ object RecipeHelper {
     fun recipeOf(
         id: String? = null,
         name: String = "name",
-        imageUrl: String? = "imageUrl",
+        imageUrl: String? = "https://amazonaws.com/myimage",
         quantity: Int = 1,
         quantity2: Int? = null,
         ingredientGroups: List<IngredientGroup> = listOf(),

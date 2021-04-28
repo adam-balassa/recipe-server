@@ -1,1 +1,1 @@
-# Recepie app
+# Recipe server

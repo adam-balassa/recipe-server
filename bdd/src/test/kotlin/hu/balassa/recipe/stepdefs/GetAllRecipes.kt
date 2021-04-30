@@ -16,21 +16,6 @@ import org.springframework.test.web.reactive.server.WebTestClient
 class GetAllRecipes: BaseStepDef() {
     private lateinit var resultList: List<RecipeHeader>
 
-    @Given("there (is)(are) {int} recipe(s) in the database")
-    fun initializeDBWithOneItem(numberOfRecipes: Int) {
-        dynamo.withRecipes(MutableList(numberOfRecipes) {
-            RecipeHelper.recipeOf(id = "testId$it")
-        })
-    }
-
-    @Given("the following recipes are in the database")
-    fun initializeRecipes(data: DataTable) {
-        val recipes = data.asMaps<String, String>(String::class.java, String::class.java)
-        dynamo.withRecipes (recipes.map {
-            recipeOf(id = it["id"]!!, name = it["name"]!!)
-        })
-    }
-
     @When("I request getting all recipes")
     fun getRecipesRequest() {
         val result = web.get().uri("/recipe").exchange()

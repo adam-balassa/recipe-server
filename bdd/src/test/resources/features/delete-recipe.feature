@@ -12,7 +12,7 @@ Feature: Delete a recipe
       | testId2   | test recipe 2 |
 
 
-  Scenario: After I delete a recipe that does not exist
+  Scenario: Deleting a non existing recipe doesn't affect state
     Given the following recipes are in the database
       | id        | name          |
       | testId1   | test recipe 1 |

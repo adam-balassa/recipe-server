@@ -1,12 +1,10 @@
 package hu.balassa.recipe.stepdefs
 
 import hu.balassa.recipe.helpers.DynamoHelper
-import hu.balassa.recipe.helpers.RecipeHelper
-import hu.balassa.recipe.helpers.RecipeHelper.recipeOf
-import io.cucumber.datatable.DataTable
-import io.cucumber.java.en.Given
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.test.web.reactive.server.WebTestClient
+import org.springframework.test.web.reactive.server.WebTestClient.ResponseSpec
+import software.amazon.awssdk.services.s3.S3Client
 
 abstract class BaseStepDef {
     @Autowired
@@ -14,4 +12,12 @@ abstract class BaseStepDef {
 
     @Autowired
     protected lateinit var dynamo: DynamoHelper
+
+    @Autowired
+    protected lateinit var s3: S3Client
+
+    companion object {
+        @JvmStatic
+        lateinit var response: ResponseSpec
+    }
 }

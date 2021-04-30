@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service
 
 @Service
 class RecipeService(
-        private val repository: RecipeRepository,
-        private val imageUploadClient: ImageUploadClient,
-        private val streetKitchenService: StreetKitchenService
+    private val repository: RecipeRepository,
+    private val imageUploadClient: ImageUploadClient,
+    private val streetKitchenService: StreetKitchenService
 ) {
 
     fun getAllRecipes(): List<Recipe> = repository.findAll().toList()
@@ -34,37 +34,37 @@ class RecipeService(
 
     fun getRecipe(id: String): Recipe = repository.findById(id) ?: throw NotFoundException(id)
 
-    fun filterRecipes(kw: List<String>): List<Recipe> = getAllRecipes()
-//    = criteriaQuery(em) { root, cb ->
-//        val keywords = kw.map { it.decapitalize() }
-//        val ingredientGroups = root.join<Recipe, IngredientGroup>("ingredientGroups")
-//        val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
-//
-//        val emptyPredicate = cb.isTrue(cb.literal(true))
-//        val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
-//            cb.and(predicate, cb.or(
-//                    cb.like(ingredients.get("name"), "%$keyword%"),
-//                    cb.like(root.get("name"), "%${keyword}%")
-//            ))
-//        }
-//        where(filter)
-//    }
-//
-//    fun findRecipesByKeywords(kw: List<String>): List<Recipe> = criteriaQuery(em) { root, cb ->
-//        val keywords = kw.map { it.decapitalize() }
-//        val ingredientGroups = root.join<Recipe, IngredientGroup>("ingredientGroups")
-//        val ingredients = ingredientGroups.join<IngredientGroup, Ingredient>("ingredients")
-//
-//        val emptyPredicate = cb.isTrue(cb.literal(false))
-//        val filter = keywords.fold(emptyPredicate) { predicate, keyword ->
-//            cb.or(predicate, cb.or(
-//                    cb.like(ingredients.get("name"), "%$keyword%"),
-//                    cb.like(root.get("name"), "%${keyword}%")
-//            ))
-//        }
-//        where(filter)
-//    }
+    fun filterRecipes(keywords: List<String>): List<Recipe> {
+        data class PrioritizedRecipe(val priority: Int, val recipe: Recipe)
+        return getAllRecipes()
+            .flatMap { recipe ->
+                var priority = 0
+                keywords.forEach { keyword ->
+                    if (recipe.name.contains(keyword))
+                        priority += 10
+                    if (recipe.ingredientGroups.any { group -> group.ingredients.any { it.name.contains(keyword) } })
+                        priority += 2
+                    if (recipe.instructions.any { it.contains(keyword) })
+                        priority += 2
+                }
+                if (priority == 0)
+                    emptyList()
+                else
+                    listOf(PrioritizedRecipe(priority, recipe))
+            }
+            .sortedBy { -it.priority }
+            .map { it.recipe }
+    }
 
+    fun findSimilarRecipes(id: String): List<Recipe> {
+        val recipe = repository.findById(id) ?: throw NotFoundException(id)
+
+        val keywords = mutableListOf<String>().apply {
+            addAll(recipe.name.split(" "))
+
+        }
+        filterRecipes()
+    }
 //    fun findSimilarRecipes(id: Long): List<Recipe> {
 //        val recipe = repository.findByIdOrNull(id)
 //                ?: throw NotFoundException(id)

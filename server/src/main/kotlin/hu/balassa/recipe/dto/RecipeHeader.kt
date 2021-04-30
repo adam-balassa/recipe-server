@@ -1,13 +1,22 @@
 package hu.balassa.recipe.dto
 
 import hu.balassa.recipe.model.Category
+import org.hibernate.validator.constraints.URL
+import javax.validation.constraints.NotEmpty
+import javax.validation.constraints.NotNull
 
-open class RecipeHeader {
-    var id: String? = null
-    lateinit var name: String
-    var imageUrl: String? = null
-    var quantity: Int = 0
-    var quantity2: Int? = null
-    var isVegetarian: Boolean = false
-    lateinit var category: Category
-}
+data class RecipeHeader (
+    val id: String?,
+    @field: NotEmpty
+    val name: String,
+    @field: URL
+    @field: NotEmpty
+    val imageUrl: String?,
+    @field: NotNull
+    val quantity: Int,
+    val quantity2: Int?,
+    @field: NotNull
+    val isVegetarian: Boolean,
+    @field: NotEmpty
+    val category: Category
+)

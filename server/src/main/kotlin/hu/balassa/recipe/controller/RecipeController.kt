@@ -6,26 +6,26 @@ import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.dto.RecipeHeader
 import hu.balassa.recipe.service.ImageUploadClient
 import hu.balassa.recipe.service.RecipeService
-import hu.balassa.recipe.service.mapping.DtoMapper
+import hu.balassa.recipe.service.mapping.DtoModelMapper
 import hu.balassa.recipe.util.Util
-import org.springframework.http.HttpStatus
 import org.springframework.http.HttpStatus.CREATED
 import org.springframework.http.HttpStatus.NO_CONTENT
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.multipart.MultipartFile
 import java.nio.file.Files
+import javax.validation.Valid
 
 @RestController
 @RequestMapping("/recipe")
-@CrossOrigin(origins=["*"])
-class RecipeController (
-        private val service: RecipeService,
-        private val imageUploadClient: ImageUploadClient
+@CrossOrigin(origins = ["*"])
+class RecipeController(
+    private val service: RecipeService,
+    private val imageUploadClient: ImageUploadClient,
+    private val mapper: DtoModelMapper
 ) {
     @GetMapping
-    fun listRecipes(): List<RecipeHeader> = service.getAllRecipes().map {
-        DtoMapper.recipeToHeaderDto(it)
-    }
+    fun listRecipes(): List<RecipeHeader> =
+        mapper.recipeModelsToHeaderDtos(service.getAllRecipes())
 
     @PostMapping("/image", consumes = ["multipart/form-data"])
     @ResponseStatus(CREATED)
@@ -38,35 +38,38 @@ class RecipeController (
     }
 
     @GetMapping("/{id}")
-    fun getRecipe(@PathVariable("id") id: String): RecipeDto = service.getRecipe(id).let {
-        DtoMapper.recipeToDto(it)
-    }
+    fun getRecipe(@PathVariable("id") id: String): RecipeDto =
+        service.getRecipe(id).let {
+            mapper.recipeModelToDto(it)
+        }
 
     @GetMapping("/filter")
-    fun searchRecipe(@RequestParam keywords: List<String>) = service.filterRecipes(keywords).map {
-        DtoMapper.recipeToHeaderDto(it)
-    }
+    fun searchRecipe(@RequestParam keywords: List<String>) =
+        mapper.recipeModelsToHeaderDtos(service.filterRecipes(keywords))
 
     @PostMapping
     @ResponseStatus(CREATED)
-    fun addRecipe(@RequestBody recipe: RecipeDto) = DtoMapper.recipeToDto(
-            service.saveRecipe(DtoMapper.recipeToModel(recipe).apply { id = null })
-    )
+    fun addRecipe(@RequestBody recipe: RecipeDto) =
+        mapper.recipeModelToDto(
+            service.saveRecipe(mapper.recipeDtoToModel(recipe).apply { id = null })
+        )
 
     @PutMapping("/{id}")
-    fun updateRecipe(@RequestBody recipe: RecipeDto, @PathVariable("id") id: String) = DtoMapper.recipeToDto(
-            service.saveRecipe(DtoMapper.recipeToModel(recipe).also { it.id = id })
-    )
+    fun updateRecipe(@RequestBody recipe: RecipeDto, @PathVariable("id") id: String) =
+        mapper.recipeModelToDto(
+            service.saveRecipe(mapper.recipeDtoToModel(recipe).also { it.id = id })
+        )
 
     @DeleteMapping("/{id}")
     @ResponseStatus(NO_CONTENT)
-    fun deleteRecipe(@PathVariable("id") id: String) = service.deleteRecipe(id)
+    fun deleteRecipe(@PathVariable("id") id: String) =
+        service.deleteRecipe(id)
 
 
     @PostMapping("/streetkitchen")
     @ResponseStatus(CREATED)
-    fun addStreetKitchenRecipe(@RequestBody info: NewStreetKitchenRecipe): RecipeDto {
+    fun addStreetKitchenRecipe(@Valid @RequestBody info: NewStreetKitchenRecipe): RecipeDto {
         val recipe = service.addStreetKitchenRecipe(info)
-        return DtoMapper.recipeToDto(recipe)
+        return mapper.recipeModelToDto(recipe)
     }
 }

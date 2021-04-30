@@ -12,7 +12,7 @@ import software.amazon.awssdk.services.s3.S3Client
 
 @Configuration
 @Profile("develop")
-class AwsS3StaticConfig {
+open class AwsS3StaticConfig {
     @Value("\${aws.secret.key}")
     private lateinit var awsSecretKey: String
 
@@ -21,7 +21,7 @@ class AwsS3StaticConfig {
 
     @Bean
     @Scope("prototype")
-    fun awsS3Client(): S3Client = S3Client
+    open fun awsS3Client(): S3Client = S3Client
                 .builder()
                 .region(Region.EU_CENTRAL_1)
                 .credentialsProvider { AwsBasicCredentials.create(awsAccessKey, awsSecretKey) }

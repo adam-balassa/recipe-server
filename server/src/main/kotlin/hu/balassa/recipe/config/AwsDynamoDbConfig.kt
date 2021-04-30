@@ -46,7 +46,7 @@ abstract class DynamoDbConfig {
 
 @Configuration
 @Profile("develop")
-class DynamoDbStaticConfig: DynamoDbConfig() {
+open class DynamoDbStaticConfig: DynamoDbConfig() {
     @Value("\${amazon.dynamodb.endpoint}")
     private lateinit var dbEndpoint: String
 
@@ -78,7 +78,7 @@ class DynamoDbStaticConfig: DynamoDbConfig() {
 
 @Configuration
 @Profile("production")
-class DynamoDbRoleConfig: DynamoDbConfig() {
+open class DynamoDbRoleConfig: DynamoDbConfig() {
     @Bean
     override fun amazonDynamoDB(): DynamoDbEnhancedClient {
         return super.amazonDynamoDB()

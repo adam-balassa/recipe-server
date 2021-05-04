@@ -1,0 +1,44 @@
+{
+  "id": "6712ddcf-2648-4a40-8c94-295947937758",
+  "name": "Pisztáciás keksz",
+  "imageUrl": "https://s3.eu-central-1.amazonaws.com/recipe-app-objects/images/22c0a921-7be5-4655-99bd-1af46b2e5ff115987090730473244964.jpg",
+  "quantity": 25,
+  "quantity2": null,
+  "vegetarian": true,
+  "category": "DESSERT",
+  "ingredientGroups": [
+    {
+      "name": "Hozzávalók",
+      "ingredients": [
+        {
+          "quantity": 10.0,
+          "quantity2": null,
+          "name": "g bourbon vaníliás cukor"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "ek liszt"
+        },
+        {
+          "quantity": 150.0,
+          "quantity2": null,
+          "name": "g porcukor"
+        },
+        {
+          "quantity": 3.0,
+          "quantity2": null,
+          "name": "db tojásfehérje"
+        },
+        {
+          "quantity": 290.0,
+          "quantity2": null,
+          "name": "g pisztácia"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    "A pisztáciát és a porcukrot egy aprítóba rakjuk, és a lehető legalaposabban lezúzzuk. A 3 tojásfehérjét habbá verjük a vaníliás cukorral. A pisztáciához keverjük a lisztet, majd hozzáforgatjuk a fehérjehabot is. A masszából kicsi, diónyi méretű golyókat formázunk, sütőpapíros tepsire rakjuk, és 2 órát szobahőmérsékleten pihentetjük. 130 fokos sütőbe toljuk a kekszeket 25-30 percre, majd hagyjuk kihűlni."
+  ]
+}

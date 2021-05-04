@@ -1,17 +1,10 @@
 package hu.balassa.recipe.stepdefs
 
 import hu.balassa.recipe.dto.RecipeHeader
-import hu.balassa.recipe.helpers.DynamoHelper
-import hu.balassa.recipe.helpers.RecipeHelper
-import hu.balassa.recipe.helpers.RecipeHelper.recipeOf
-import hu.balassa.recipe.model.Recipe
 import io.cucumber.datatable.DataTable
-import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 import org.assertj.core.api.Assertions.assertThat
-import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.test.web.reactive.server.WebTestClient
 
 class GetAllRecipes: BaseStepDef() {
     private lateinit var resultList: List<RecipeHeader>
@@ -33,7 +26,7 @@ class GetAllRecipes: BaseStepDef() {
         assertThat(resultList).allSatisfy {
             assertThat(it.id).isNotNull
             assertThat(it.name).isNotNull
-            assertThat(it.isVegetarian).isNotNull
+            assertThat(it.vegetarian).isNotNull
             assertThat(it.category).isNotNull
             assertThat(it.quantity).isNotNull
         }

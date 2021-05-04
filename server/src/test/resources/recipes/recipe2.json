@@ -1,0 +1,60 @@
+{
+  "id": "2aa521d3-4912-4c12-ba4c-c027816e5aae",
+  "name": "Kéksajttal és padlizsánnal töltött gombafejek",
+  "imageUrl": "https://s3.eu-central-1.amazonaws.com/recipe-app-objects/images/a8b77856-8530-43f7-af81-e8e4a131f49c7748701546191236140.jpg",
+  "quantity": 4,
+  "quantity2": null,
+  "vegetarian": true,
+  "category": "MAIN",
+  "ingredientGroups": [
+    {
+      "name": "Hozzávalók",
+      "ingredients": [
+        {
+          "quantity": 100.0,
+          "quantity2": null,
+          "name": "g mozzarella"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "kg kisfejű fehér csiperkegomba"
+        },
+        {
+          "quantity": null,
+          "quantity2": null,
+          "name": "só, bors"
+        },
+        {
+          "quantity": 120.0,
+          "quantity2": null,
+          "name": "g kéksajt"
+        },
+        {
+          "quantity": 2.0,
+          "quantity2": null,
+          "name": "db padlizsán"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "fej hagyma"
+        },
+        {
+          "quantity": 8.0,
+          "quantity2": null,
+          "name": "gerezd fokhagyma"
+        },
+        {
+          "quantity": 3.0,
+          "quantity2": null,
+          "name": "ek olívaolaj"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    "A padlizsánokat 180 fokos sütőben 80 perc alatt megsütjük. A gombák tönkjét kiszedjük, a hagymát, fokhagymát finomra vágjuk, és olajon lepirítjuk. A sült padlizsánokat meghámozzuk, majd felaprítjuk, és hozzáadjuk a hagymás-fokhagymás alaphoz. Sózzuk, borsozzuk, majd ha a padlizsános keverékből elfőtt a folyadék, és egy sűrű masszát kapunk, akkor belemorzsoljuk a kéksajtot, és elkeverjük. ",
+    "A gombafejeket megtöltjük a padlizsános-kéksajtos krémmel, a mozzarellát felkockázzuk és minden gombára teszünk egy kis darabot. 190 fokra előmelegített sütőben 20 perc alatt megsütjük."
+  ]
+}

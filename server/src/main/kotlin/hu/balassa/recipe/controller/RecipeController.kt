@@ -47,6 +47,10 @@ class RecipeController(
     fun searchRecipe(@RequestParam keywords: List<String>) =
         mapper.recipeModelsToHeaderDtos(service.filterRecipes(keywords))
 
+    @GetMapping("/{id}/similar")
+    fun searchSimilarRecipes(@PathVariable("id") id: String) =
+        mapper.recipeModelsToHeaderDtos(service.findSimilarRecipes(id))
+
     @PostMapping
     @ResponseStatus(CREATED)
     fun addRecipe(@RequestBody recipe: RecipeDto) =

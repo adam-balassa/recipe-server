@@ -1,5 +1,6 @@
 package hu.balassa.recipe.dto
 
+import com.fasterxml.jackson.annotation.JsonProperty
 import hu.balassa.recipe.model.Category
 import org.hibernate.validator.constraints.URL
 import javax.validation.constraints.NotEmpty
@@ -16,7 +17,8 @@ data class RecipeHeader (
     val quantity: Int,
     val quantity2: Int?,
     @field: NotNull
-    val isVegetarian: Boolean,
+    @field: JsonProperty("isVegetarian")
+    val vegetarian: Boolean,
     @field: NotEmpty
     val category: Category
 )

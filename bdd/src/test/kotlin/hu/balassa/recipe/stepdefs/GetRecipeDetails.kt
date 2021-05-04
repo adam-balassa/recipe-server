@@ -1,16 +1,14 @@
 package hu.balassa.recipe.stepdefs
 
+import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.exception.ErrorResponse
 import hu.balassa.recipe.helpers.RecipeHelper.recipeOf
 import hu.balassa.recipe.helpers.RecipeHelper.verifyRecipe
-import hu.balassa.recipe.model.Category
-import hu.balassa.recipe.model.Recipe
 import io.cucumber.datatable.DataTable
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 import org.assertj.core.api.Assertions.assertThat
-import org.springframework.test.web.reactive.server.WebTestClient
 
 class GetRecipeDetails: BaseStepDef() {
     @Given("the following recipe is in the database")
@@ -30,7 +28,7 @@ class GetRecipeDetails: BaseStepDef() {
         val expectedRecipe = recipeOf(data.asMap(String::class.java, String::class.java))
         val actualRecipe = response
             .expectStatus().isOk
-            .expectBody(Recipe::class.java)
+            .expectBody(RecipeDto::class.java)
             .returnResult()
             .responseBody
         assertThat(actualRecipe).isNotNull

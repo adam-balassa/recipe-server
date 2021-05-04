@@ -4,7 +4,7 @@ spring:
   application:
     name: Recipe Server
 info:
-  version: @version@
+  version: '@version@'
 aws:
   accessKey: AKIAWPNGN6GGIFLGT37U
 

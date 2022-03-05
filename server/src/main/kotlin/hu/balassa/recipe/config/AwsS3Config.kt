@@ -30,10 +30,10 @@ open class AwsS3StaticConfig {
 
 @Configuration
 @Profile("production")
-class AwsS3InstanceRoleConfig {
+open class AwsS3InstanceRoleConfig {
 
     @Bean
-    fun awsS3Client(): S3Client {
+    open fun awsS3Client(): S3Client {
         return S3Client
             .builder()
             .region(Region.EU_CENTRAL_1)

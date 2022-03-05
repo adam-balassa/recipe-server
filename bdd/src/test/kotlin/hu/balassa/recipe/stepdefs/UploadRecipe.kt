@@ -1,5 +1,6 @@
 package hu.balassa.recipe.stepdefs
 
+import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.exception.ErrorResponse
 import hu.balassa.recipe.helpers.RecipeHelper.recipeOf
 import hu.balassa.recipe.helpers.RecipeHelper.verifyRecipe
@@ -21,7 +22,7 @@ class UploadRecipe: BaseStepDef() {
     @Then("I receive a response of the following recipe")
     fun checkRecipeResponse(data: DataTable) {
         val recipe = response.expectStatus().isCreated
-            .expectBody(Recipe::class.java)
+            .expectBody(RecipeDto::class.java)
             .returnResult()
             .responseBody
 

@@ -10,10 +10,13 @@ import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 import org.springframework.stereotype.Service
 
+interface StreetKitchenService {
+    fun getRecipe(url: String): Recipe
+}
 
 @Service
-class StreetKitchenService {
-    fun getRecipe(url: String): Recipe {
+class StreetKitchenServiceImpl: StreetKitchenService {
+    override fun getRecipe(url: String): Recipe {
         val document = getHTMLContent(url)
         val ingredientGroups = getIngredientGroups(document)
         val recipeName = document.select("h1").first().text()

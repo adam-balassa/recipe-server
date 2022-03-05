@@ -1,22 +1,13 @@
 package hu.balassa.recipe.stepdefs
 
+import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.exception.ErrorResponse
 import hu.balassa.recipe.model.Category
-import hu.balassa.recipe.model.Recipe
 import io.cucumber.datatable.DataTable
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 import org.assertj.core.api.Assertions.assertThat
-import org.mockito.BDDMockito.*
-import org.mockito.Mockito
-import org.mockito.Mockito.mock
-import org.springframework.test.web.reactive.server.WebTestClient
-import software.amazon.awssdk.services.s3.model.PutObjectAclResponse
-import software.amazon.awssdk.services.s3.model.PutObjectRequest
-import software.amazon.awssdk.services.s3.model.PutObjectResponse
 import java.lang.Integer.parseInt
-import java.net.URI
-import java.nio.file.Path
 
 class DownloadRecipe: BaseStepDef() {
     @When("I download a Street Kitchen recipe from {word}")
@@ -30,7 +21,7 @@ class DownloadRecipe: BaseStepDef() {
     fun checkResult(data: DataTable) {
         val result = response
             .expectStatus().isCreated
-            .expectBody(Recipe::class.java)
+            .expectBody(RecipeDto::class.java)
             .returnResult()
             .responseBody!!
 
@@ -41,7 +32,7 @@ class DownloadRecipe: BaseStepDef() {
         assertThat(result.category).isEqualTo(Category.MAIN)
         assertThat(result.ingredientGroups).hasSize(parseInt(recipe["ingredientSize"]))
         assertThat(result.instructions).hasSize(parseInt(recipe["instructionSize"]))
-        assertThat(result.isVegetarian).isFalse
+        assertThat(result.vegetarian).isFalse
         assertThat(result.quantity).isEqualTo(parseInt(recipe["quantity"]))
         assertThat(result.quantity2).isEqualTo(parseInt(recipe["quantity2"]))
     }

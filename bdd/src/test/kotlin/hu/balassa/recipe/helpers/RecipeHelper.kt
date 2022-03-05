@@ -1,5 +1,7 @@
 package hu.balassa.recipe.helpers
 
+import hu.balassa.recipe.dto.IngredientGroupDto
+import hu.balassa.recipe.dto.RecipeDto
 import hu.balassa.recipe.model.Category
 import hu.balassa.recipe.model.IngredientGroup
 import hu.balassa.recipe.model.Recipe
@@ -12,42 +14,34 @@ object RecipeHelper {
         imageUrl: String? = "https://amazonaws.com/myimage",
         quantity: Int = 1,
         quantity2: Int? = null,
-        ingredientGroups: List<IngredientGroup> = listOf(),
+        ingredientGroups: List<IngredientGroupDto> = listOf(),
         instructions: List<String> = listOf("instruction"),
         category: Category = Category.MAIN,
         isVegetarian: Boolean = false
-    ): Recipe {
-        return Recipe().also {
-            it.id = id
-            it.name = name
-            it.imageUrl = imageUrl
-            it.quantity = quantity
-            it.quantity2 = quantity2
-            it.ingredientGroups = ingredientGroups
-            it.instructions = instructions
-            it.category = category
-            it.isVegetarian = isVegetarian
-        }
+    ): RecipeDto {
+        return RecipeDto(
+            id, name, imageUrl, quantity, quantity2, isVegetarian,category, ingredientGroups, instructions
+        )
     }
 
-    fun recipeOf(recipe: Map<String, String>): Recipe = recipeOf(
+    fun recipeOf(recipe: Map<String, String>): RecipeDto = RecipeDto(
         id = recipe["id"],
         name = recipe["name"]!!,
         category = Category.valueOf(recipe["category"]!!),
         imageUrl = recipe["imageUrl"],
         quantity = recipe["quantity"]!!.toInt(),
         quantity2 = recipe["quantity2"]?.toInt(),
-        isVegetarian = recipe["isVegetarian"]?.toBoolean() ?: false,
+        vegetarian = recipe["isVegetarian"]?.toBoolean() ?: false,
         instructions = recipe["instructions"]!!.split(","),
         ingredientGroups = emptyList()
     )
 
-    fun verifyRecipe(actualRecipe: Recipe, expectedRecipe: Recipe) {
+    fun verifyRecipe(actualRecipe: RecipeDto, expectedRecipe: RecipeDto) {
         if (!expectedRecipe.id.isNullOrBlank()) Assertions.assertThat(actualRecipe.id).isEqualTo(expectedRecipe.id)
         Assertions.assertThat(actualRecipe.name).isEqualTo(expectedRecipe.name)
         Assertions.assertThat(actualRecipe.category).isEqualTo(expectedRecipe.category)
         Assertions.assertThat(actualRecipe.imageUrl).isEqualTo(expectedRecipe.imageUrl)
-        Assertions.assertThat(actualRecipe.isVegetarian).isEqualTo(expectedRecipe.isVegetarian)
+        Assertions.assertThat(actualRecipe.vegetarian).isEqualTo(expectedRecipe.vegetarian)
         Assertions.assertThat(actualRecipe.quantity).isEqualTo(expectedRecipe.quantity)
         Assertions.assertThat(actualRecipe.quantity2).isEqualTo(expectedRecipe.quantity2)
         Assertions.assertThat(actualRecipe.instructions).containsExactlyElementsOf(expectedRecipe.instructions)

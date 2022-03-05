@@ -19,19 +19,19 @@ import software.amazon.awssdk.services.s3.S3Client
 @SpringBootTest(classes = [RecipeApplication::class, WebTestClientConfiguration::class], webEnvironment = DEFINED_PORT)
 @CucumberContextConfiguration
 @AutoConfigureWebTestClient
-class SpringBootTestConfiguration {
+open class SpringBootTestConfiguration {
     @TestConfiguration
-    class WebTestClientConfiguration {
+    open class WebTestClientConfiguration {
         @Autowired
         lateinit var context: ApplicationContext
 
         @Bean
-        fun webTestClient(): WebTestClient =
+        open fun webTestClient(): WebTestClient =
             WebTestClient.bindToServer().baseUrl("http://localhost:8080").build()
 
         @Bean
         @Primary
-        fun s3Client(): S3Client {
+        open fun s3Client(): S3Client {
             return mock(S3Client::class.java)
         }
     }

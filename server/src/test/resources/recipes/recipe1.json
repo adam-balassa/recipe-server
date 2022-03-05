@@ -1,0 +1,85 @@
+{
+  "id": "e841b34b-874d-4e30-82c9-2786ee2473df",
+  "name": "Rókagomba-paprikás",
+  "imageUrl": "https://s3.eu-central-1.amazonaws.com/recipe-app-objects/images/2115f4ff-b6b2-4cd1-85f8-3fa8fc1d7efe1783083514037175855.jpg",
+  "quantity": 2,
+  "quantity2": null,
+  "vegetarian": true,
+  "category": "MAIN",
+  "ingredientGroups": [
+    {
+      "name": "Hozzávalók",
+      "ingredients": [
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "db paradicsom"
+        },
+        {
+          "quantity": 500.0,
+          "quantity2": null,
+          "name": "g rókagomba"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "mk majoranna"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "fej hagyma"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "tk liszt"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "ek tejföl"
+        },
+        {
+          "quantity": 2.0,
+          "quantity2": null,
+          "name": "ek olaj"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "mk őrölt kömény"
+        },
+        {
+          "quantity": null,
+          "quantity2": null,
+          "name": "só, bors"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "tk pirospaprika"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "db paprika"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "nagy csokor petrezselyem"
+        },
+        {
+          "quantity": 2.0,
+          "quantity2": null,
+          "name": "gerezd fokhagyma"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    "A finomra vágott hagymát és fokhagymát lepirítjuk az olajon, majd hozzáadjuk a felkockázott paprikát és paradicsomot. Ha a zöldségek kicsit összeszottyadtak, felöntjük 100 ml vízzel, és megszórjuk a pirospaprikával és a köménnyel. Addig főzzük a pörköltalapot, a vizet folyamatosan pótolva, míg a paprika és a paradicsom szétfő. ",
+    "Ezután hozzáadjuk a rókagombát, és a szaftot folyamatosan pótolva puhára főzzük, közben sózzuk, borsozzuk, és megszórjuk a majorannával. A lisztet kb. 100 ml vízzel csomómentesre keverjük, hozzákeverjük a tejfölt, ezzel még 3 percig forraljuk a gombát, majd hozzáadjuk a felaprított petrezselymet. Még egy percig főzzük, majd galuskával és tejföllel tálaljuk."
+  ]
+}

@@ -10,10 +10,23 @@ import software.amazon.awssdk.enhanced.dynamodb.Key
 import software.amazon.awssdk.enhanced.dynamodb.TableSchema
 import software.amazon.awssdk.services.dynamodb.model.AttributeValue
 
+interface RecipeRepository {
+    fun findAll(): List<Recipe>
+
+    fun save(recipe: Recipe): Recipe
+
+    fun deleteById(id: String)
+
+    fun findById(id: String): Recipe?
+
+    fun findByNameContains(keywords: Collection<String>): List<Recipe>
+}
+
+
 @Repository
-class RecipeRepository(
+class RecipeRepositoryImpl(
     db: DynamoDbEnhancedClient
-) {
+): RecipeRepository {
     companion object {
         private val tableSchema = TableSchema.fromBean(Recipe::class.java)
     }
@@ -22,10 +35,9 @@ class RecipeRepository(
         db.table(DynamoDbConfig.tableName, tableSchema)
     }
 
+    override fun findAll(): List<Recipe> = table.scan().items().toList()
 
-    fun findAll(): List<Recipe> = table.scan().items().toList()
-
-    fun save(recipe: Recipe): Recipe {
+    override fun save(recipe: Recipe): Recipe {
         when (recipe.id) {
             null -> {
                 recipe.id = Util.generateUUID()
@@ -38,18 +50,18 @@ class RecipeRepository(
         return recipe
     }
 
-    fun deleteById(id: String) {
+    override fun deleteById(id: String) {
         table.deleteItem(
             Key.builder().partitionValue(id).build()
         )
     }
 
-    fun findById(id: String): Recipe? =
+    override fun findById(id: String): Recipe? =
         table.getItem(
             Key.builder().partitionValue(id).build()
         )
 
-    fun findByNameContains(keywords: Collection<String>) = table.scan {
+    override fun findByNameContains(keywords: Collection<String>) = table.scan {
         it.filterExpression(
             Expression.builder()
             .expression(keywords.mapIndexed { i, _ -> "contains(#recipeName, :queriedName$i)"}.joinToString(" or "))

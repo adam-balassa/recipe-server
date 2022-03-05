@@ -1,6 +1,5 @@
 package hu.balassa.recipe.exception
 
-import lombok.RequiredArgsConstructor
 import org.slf4j.LoggerFactory
 import org.springframework.context.MessageSource
 import org.springframework.http.HttpStatus

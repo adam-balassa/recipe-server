@@ -1,0 +1,68 @@
+{
+  "id": "06f0a9d2-292f-479b-b5af-299f80cdd1a7",
+  "name": "Perfekt foszlós kalács",
+  "imageUrl": "https://s3.eu-central-1.amazonaws.com/recipe-app-objects/images/12aa1a33-a566-4a84-8970-67ad1e22e5bf11587462113394660531.jpg",
+  "quantity": 2,
+  "quantity2": null,
+  "vegetarian": true,
+  "category": "OTHER",
+  "ingredientGroups": [
+    {
+      "name": "A kenéshez:",
+      "ingredients": [
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "db tojás"
+        },
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "ek víz"
+        }
+      ]
+    },
+    {
+      "name": "Hozzávalók (egy kb. 800 grammos kalácshoz)",
+      "ingredients": [
+        {
+          "quantity": 1.0,
+          "quantity2": null,
+          "name": "db tojás"
+        },
+        {
+          "quantity": 15.0,
+          "quantity2": null,
+          "name": "g friss élesztő"
+        },
+        {
+          "quantity": 255.0,
+          "quantity2": null,
+          "name": "ml tej"
+        },
+        {
+          "quantity": 75.0,
+          "quantity2": null,
+          "name": "g cukor"
+        },
+        {
+          "quantity": 50.0,
+          "quantity2": null,
+          "name": "g puha vaj"
+        },
+        {
+          "quantity": 500.0,
+          "quantity2": null,
+          "name": "g liszt"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    "A foszlós kalács a húsvét egyik elmaradhatatlan étele, ami akkor a legjobb, ha házilag, frissen készítitek.",
+    "A szobahőmérsékletű hozzávalókat belerakjuk a dagasztógép keverőtáljába és addig dagasztjuk, amíg szép sima, fényes felületű tésztát kapunk. Ezután egy melegebb helyen, kb. 40 perc alatt duplájára kelesztjük. Ha kész, kiborítjuk a tésztát egy nyújtódeszkára, kihúzkodjuk a széleit. Egy kés segítségével 6 egyenlő részre osztjuk a tésztát, ezeket pedig gömbölyítjük és letakarva kb. 20 perc alatt duplájára kelesztjük. Kezdődhet a formázás.",
+    "A gombócokat kilapítjuk, felülről lefelé szorosan feltekerjük, és hosszú, kötél vastagságú hengert sodrunk belőlük. Ezeket a végüknél összefogjuk, és kezdődhet a fonás! Nevezzük a kalács-kezdeményünket egy hatlábú polipnak!",
+    "A polip szélső lábai mindig magastartásban vannak, a többi 4 pedig középen. A középen lévő 4 lábat mindig ketté választjuk, 2-2 lábra, hogy középen nagyobb helyünk legyen. Először a jobb felső lábat áthajtjuk balra, majd a bal felsőt jobbra. A jobb szélső lábat áthajtjuk középre, a baloldalhoz közelebb, és a balszélső lábat pedig jobb oldalra felülre. Most a jobb felsőt hozzuk középre, a bal szélsőt pedig átrakjuk jobbra magastartásba. A baloldali, magastartásban lévő lábat lehajtjuk középre. Mindig a szélső hurkát hajtjuk át a másik oldalra, és a felsőt hajtjuk le középre, és így folytatjuk. A végén pedig a kalács alá hajtjuk azt, amit már nem tudunk tovább fonni.",
+    "A tojást és a vizet elkeverjük, a megfont kalácsot óvatosan átrakjuk egy sütőpapírral bélelt tepsire, lekenjünk tojással, és duplájára kelesztjük. A sütőt előmelegítjük 170 fokra, és mielőtt betennénk a kalácsot, még egyszer lekenjük. Kb. 40 perc alatt aranybarnára sütjük."
+  ]
+}

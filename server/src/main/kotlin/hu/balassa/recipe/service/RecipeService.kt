@@ -61,9 +61,9 @@ class RecipeService(
 
         val keywords = mutableListOf<String>().apply {
             addAll(recipe.name.split(" "))
-
         }
-        filterRecipes()
+
+        return filterRecipes(keywords)
     }
 //    fun findSimilarRecipes(id: Long): List<Recipe> {
 //        val recipe = repository.findByIdOrNull(id)

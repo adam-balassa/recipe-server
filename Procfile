@@ -1,1 +1,1 @@
-web: java -jar server/target/server-2.1.0-spring-boot.jar
+web: java -Dserver.port=$PORT -jar server/target/server-2.1.0-spring-boot.jar

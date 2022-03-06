@@ -1,1 +1,1 @@
-web: java -jar target/server-2.1.0.jar
+web: java -jar server/target/server-2.1.0-spring-boot.jar

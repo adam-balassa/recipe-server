@@ -35,6 +35,15 @@ functions:
           path: /recipes
           method: get
   
+  searchRecipe:
+    handler: router.searchRecipe
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/filter
+          method: get
+
   getRecipeById:
     handler: router.getRecipeById
     environment:
@@ -43,6 +52,16 @@ functions:
       - httpApi:
           path: /recipes/{id}
           method: get
+
+  similarRecipes:
+    handler: router.similarRecipes
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/{id}/similar
+          method: get
+
 
 plugins:
   - serverless-plugin-typescript

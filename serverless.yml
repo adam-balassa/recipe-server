@@ -10,6 +10,8 @@ provider:
   region: eu-central-1
   environment:
     DYNAMODB_TABLE: recipe
+  httpApi:
+    cors: true
   iam:
     role:
       statements:
@@ -24,13 +26,22 @@ provider:
           Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
 
 functions:
-  hello:
-    handler: handler.hello
+  listRecipes:
+    handler: router.listRecipes
     environment:
       DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
     events:
       - httpApi:
-          path: /
+          path: /recipes
+          method: get
+  
+  getRecipeById:
+    handler: router.getRecipeById
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/{id}
           method: get
 
 plugins:

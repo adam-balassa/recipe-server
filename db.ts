@@ -1,4 +1,4 @@
-import { DynamoDB } from 'aws-sdk'
+import { DynamoDB } from 'aws-sdk';
 import Config from './config';
 import { Recipe, RecipeBase } from './model';
 

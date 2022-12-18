@@ -32,7 +32,7 @@ const searchRecipes = async (keywords: string[]): Promise<Recipe[]> => {
     if (!priority) return [];
     return [{ recipe, priority }];
   })
-  .sort(({ priority }) => -priority)
+  .sort((a, b) => b.priority - a.priority)
   .map(({ recipe }) => recipe);
 };
 
@@ -46,5 +46,6 @@ export const similarRecipes = (event: APIGatewayProxyEvent) => lambda<RecipeDtoB
   const keywords = recipe.ingredientGroups
     .flatMap(({ ingredients }) => ingredients)
     .map(({ name }) => name.split(' ').pop() as string);
+
   return searchRecipes(keywords).then(recipes => recipes.slice(0, 6).map(modelBaseToDto));
 });

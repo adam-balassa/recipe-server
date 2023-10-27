@@ -27,7 +27,7 @@ provider:
 
 functions:
   listRecipes:
-    handler: router.listRecipes
+    handler: ./src/router.listRecipes
     environment:
       DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
     events:
@@ -36,7 +36,7 @@ functions:
           method: get
   
   searchRecipe:
-    handler: router.searchRecipe
+    handler: ./src/router.searchRecipe
     environment:
       DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
     events:
@@ -45,7 +45,7 @@ functions:
           method: get
 
   getRecipeById:
-    handler: router.getRecipeById
+    handler: ./src/router.getRecipeById
     environment:
       DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
     events:
@@ -54,7 +54,7 @@ functions:
           method: get
 
   similarRecipes:
-    handler: router.similarRecipes
+    handler: ./src/router.similarRecipes
     environment:
       DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
     events:

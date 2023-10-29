@@ -18,28 +18,32 @@ This template does not include any kind of persistence (database). For more adva
 
 ## Setup
 
+### Install dependencies
 Run this command to initialize a new project in a new working directory.
 
-```
+```shell
 npm install
 ```
+### Configure AWS
+Set the credentials in `~/.aws/credentials`, including a profile, called `serverless`
+
 
 ## Usage
 
-**Deploy**
+### Deploy
 
-```
-$ serverless deploy
-```
-
-**Invoke the function locally.**
-
-```
-serverless invoke local --function hello
+```shell
+serverless deploy
 ```
 
-**Invoke the function**
+### Invoke the function locally.
+**getRecipeById**
+```shell
+serverless invoke local --function getRecipeById -d '{ "pathParameters": { "id": "ee2d067d-50ee-4b99-8ccb-1442488c7260" } }'
+```
+**addRecipe**
+```shell
+serverless invoke local --function addRecipe --path data/recipe.json
+```
 
-```
-curl https://xxxxxxxxx.execute-api.us-east-1.amazonaws.com/
-```
+

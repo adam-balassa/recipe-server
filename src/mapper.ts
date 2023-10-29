@@ -1,4 +1,4 @@
-import { Recipe, RecipeBase, RecipeDto, RecipeDtoBase } from './model';
+import { Category, Recipe, RecipeBase, RecipeDto, RecipeDtoBase } from './model';
 
 export const modelBaseToDto = (model: RecipeBase): RecipeDtoBase => ({
   id: model.id,
@@ -15,3 +15,8 @@ export const modelToDto = (model: Recipe): RecipeDto => ({
   instructions: model.instructions,
   ingredientGroups: model.ingredientGroups
 });
+
+export const dtoToModel = ({ isVegetarian, ...dto }: RecipeDto): Recipe => ({
+  ...dto,
+  vegetarian: isVegetarian
+})

@@ -2,7 +2,10 @@ import { APIGatewayProxyEvent } from 'aws-lambda';
 import { lambda } from './lambda';
 import * as db from './db';
 import { Recipe, RecipeDto, RecipeDtoBase } from './model';
-import { modelBaseToDto, modelToDto } from './mapper';
+import { dtoToModel, modelBaseToDto, modelToDto } from './mapper';
+import { AppError } from "./error";
+import { generateId, uploadImage } from "./utils";
+import { deleteRecipe } from "./db";
 
 export const listRecipes = (event: APIGatewayProxyEvent) => lambda<RecipeDtoBase[]>(event, async () => {
   return db.listRecipes().then(recipes => recipes.map(modelBaseToDto));
@@ -52,4 +55,21 @@ export const similarRecipes = (event: APIGatewayProxyEvent) => lambda<RecipeDtoB
       .filter(({ id }) => id !== pathParams?.id)
       .slice(0, 6)
       .map(modelBaseToDto));
+});
+
+export const addRecipe = (event: APIGatewayProxyEvent) => lambda<RecipeDto, RecipeDto>(
+  event,
+  async ({ pathParams, body }) => {
+    if (!body) throw new AppError({ message: 'No request body', status: 400 })
+    if (body.imageUrl && !body.imageUrl.includes('amazonaws.com')) {
+      body.imageUrl = await uploadImage(body.imageUrl)
+    }
+    const recipe = dtoToModel({ ...body, id: pathParams?.id ?? generateId() })
+    await db.saveRecipe(recipe)
+    return modelToDto(recipe);
+  }
+)
+
+export const deleteRecipeById = (event: APIGatewayProxyEvent) => lambda(event, async ({ pathParams }) => {
+  await db.deleteRecipe(pathParams?.id ?? '');
 });

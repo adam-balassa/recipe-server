@@ -24,6 +24,11 @@ provider:
             - dynamodb:UpdateItem
             - dynamodb:DeleteItem
           Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
+        - Effect: Allow
+          Action:
+            - s3:PutObject
+          Resource: arn:aws:s3:::recipe-app-objects
+
 
 functions:
   listRecipes:
@@ -34,7 +39,7 @@ functions:
       - httpApi:
           path: /recipes
           method: get
-  
+
   searchRecipe:
     handler: ./src/router.searchRecipe
     environment:
@@ -61,6 +66,33 @@ functions:
       - httpApi:
           path: /recipes/{id}/similar
           method: get
+
+  addRecipe:
+    handler: ./src/router.addRecipe
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes
+          method: post
+
+  updateRecipe:
+    handler: ./src/router.addRecipe
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/{id}
+          method: put
+
+  deleteRecipeById:
+    handler: ./src/router.deleteRecipeById
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/{id}
+          method: delete
 
 
 plugins:

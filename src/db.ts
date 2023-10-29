@@ -18,3 +18,13 @@ export const getRecipe = (id: string) => db.get({
   TableName: Config.dynamoDbTableName,
   Key: { id }
 }).promise().then(({ Item }) => Item as Recipe);
+
+export const saveRecipe = (recipe: Recipe) => db.put({
+  TableName: Config.dynamoDbTableName,
+  Item: recipe
+}).promise()
+
+export const deleteRecipe = (id: string) => db.delete({
+  TableName: Config.dynamoDbTableName,
+  Key: { id }
+}).promise()

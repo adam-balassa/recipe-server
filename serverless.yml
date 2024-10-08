@@ -27,7 +27,10 @@ provider:
         - Effect: Allow
           Action:
             - s3:PutObject
-          Resource: arn:aws:s3:::recipe-app-objects
+            - s3:PutObjectAcl
+          Resource:
+            - arn:aws:s3:::recipe-app-objects
+            - arn:aws:s3:::recipe-app-objects/*
 
 
 functions:
@@ -93,6 +96,15 @@ functions:
       - httpApi:
           path: /recipes/{id}
           method: delete
+
+  saveImage:
+    handler: ./src/router.saveImage
+    environment:
+      DYNAMODB_TABLE: ${self:provider.environment.DYNAMODB_TABLE}
+    events:
+      - httpApi:
+          path: /recipes/image
+          method: post
 
 
 plugins:
